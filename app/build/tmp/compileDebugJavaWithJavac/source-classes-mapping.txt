@@ -1,0 +1,4 @@
+com/project/agro_retailerapp/SplashActivity.java
+ com.project.agro_retailerapp.SplashActivity
+com/project/agro_retailerapp/BuildConfig.java
+ com.project.agro_retailerapp.BuildConfig
