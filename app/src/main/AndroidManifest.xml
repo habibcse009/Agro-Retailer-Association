@@ -15,7 +15,9 @@
         android:theme="@style/Theme.Agro_RetailerApp"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".Retailers.RetailerMainActivity"></activity>
+        <activity android:name=".SignUpActivity"></activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".Retailers.RetailerMainActivity" />
         <activity android:name=".AgroTeam.AgroMainActivity" />
         <activity android:name=".Admin.AdminMainActivity" />
         <activity android:name=".SplashActivity">

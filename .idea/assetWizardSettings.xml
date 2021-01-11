@@ -14,8 +14,8 @@
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
-                            <entry key="outputName" value="ic_cooperation" />
-                            <entry key="sourceFile" value="H:\ClientProject\Esha_resourse\icon\cooperation.svg" />
+                            <entry key="outputName" value="ic_information" />
+                            <entry key="sourceFile" value="H:\ClientProject\Esha_resourse\icon\information.svg" />
                           </map>
                         </option>
                       </PersistentState>

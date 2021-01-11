@@ -2,10 +2,11 @@
     <!-- Base application theme. -->
     <style name="Theme.Agro_RetailerApp" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
 
         <!-- Secondary brand color. -->
-        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondary">@color/colorPrimaryDark</item>
+
 
         <!-- Customize your theme here. -->
     </style>
