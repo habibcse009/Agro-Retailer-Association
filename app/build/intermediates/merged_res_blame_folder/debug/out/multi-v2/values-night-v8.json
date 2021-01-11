@@ -9,32 +9,34 @@
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "102",
-                        "endLines": "10",
+                        "endLines": "11",
                         "endColumns": "12",
-                        "endOffsets": "447"
+                        "endOffsets": "459"
                     },
                     "to": {
                         "startLines": "2",
                         "startColumns": "4",
                         "startOffsets": "55",
-                        "endLines": "10",
+                        "endLines": "11",
                         "endColumns": "12",
-                        "endOffsets": "392"
+                        "endOffsets": "403"
                     }
                 },
                 {
                     "source": "C:\\Users\\habib\\.gradle\\caches\\transforms-2\\files-2.1\\780dca39713ff2fcf4eadcaf494ac982\\appcompat-1.1.0\\res\\values-night-v8\\values-night-v8.xml",
                     "from": {
-                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1"
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,125,209,293,389,491,593,687",
+                        "endColumns": "69,83,83,95,101,101,93,88",
+                        "endOffsets": "120,204,288,384,486,588,682,771"
                     },
                     "to": {
-                        "startLines": "11,12,13,14,15,16,17,18",
+                        "startLines": "12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "397,467,551,635,731,833,935,1029",
+                        "startOffsets": "408,478,562,646,742,844,946,1040",
                         "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "462,546,630,726,828,930,1024,1113"
+                        "endOffsets": "473,557,641,737,839,941,1035,1124"
                     }
                 }
             ]

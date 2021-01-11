@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:2:1-21:12
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:2:1-36:12
 MERGED from [com.github.GrenderG:Toasty:1.4.2] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\64b4336c28730e52433a1922d8cf59c5\jetified-Toasty-1.4.2\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\750e11957bf7041179375a87d64fa3cb\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:2:1-30:12
@@ -11,6 +11,7 @@ MERGED from [com.afollestad:easyvideoplayer:0.3.0] C:\Users\habib\.gradle\caches
 MERGED from [me.zhanghai.android.materialprogressbar:library:1.1.7] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\16508833f27cc619b41a0eabf7e16330\jetified-library-1.1.7\AndroidManifest.xml:6:1-16:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\780dca39713ff2fcf4eadcaf494ac982\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\213ad6fce5ea38e5799c707ff664b050\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.ybq:Android-SpinKit:1.4.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\93be385ce0423bf14bb96f64a565c746\jetified-Android-SpinKit-1.4.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\f52122426ed85128097908a2e58f6328\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.volley:volley:1.1.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\f1d57169f456ec18db6c386ecf8bd7c5\jetified-volley-1.1.1\AndroidManifest.xml:2:1-11:12
 MERGED from [de.hdodenhof:circleimageview:3.0.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\44091b1403a21b4ac1933fdc058e9ad9\jetified-circleimageview-3.0.0\AndroidManifest.xml:2:1-11:12
@@ -70,25 +71,49 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\habib\.gradle
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\06bc4641de51b04d4df94808d6e05292\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\1b64911e987df0fea019408e241659d7\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.datatransport:transport-api:2.2.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\b7d81b56d802661f90b349397abd5679\jetified-transport-api-2.2.0\AndroidManifest.xml:15:1-22:12
-INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:2:1-36:12
 	package
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:3:5-43
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:4:5-43
 		INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml
 		INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:2:1-21:12
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:2:1-36:12
 		INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:2:1-21:12
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:2:1-36:12
 		INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\42956f4f6a6bdf3aa8822b7450cb24db\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\42956f4f6a6bdf3aa8822b7450cb24db\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\d91158852cba7dc319a1827a983316d0\jetified-play-services-measurement-api-17.2.1\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\d91158852cba7dc319a1827a983316d0\jetified-play-services-measurement-api-17.2.1\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\d67642eb3ba114a4929fa95d0eeedcdc\jetified-firebase-iid-20.0.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\d67642eb3ba114a4929fa95d0eeedcdc\jetified-firebase-iid-20.0.2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\db0cf08c6e1a3275be055e7b069cd85c\jetified-play-services-measurement-impl-17.2.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\db0cf08c6e1a3275be055e7b069cd85c\jetified-play-services-measurement-impl-17.2.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\6a59ef0df230ea0430984bc2a6189a6a\jetified-play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\6a59ef0df230ea0430984bc2a6189a6a\jetified-play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\54d22e191df0bfef3fbc7474b04218b3\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:26:5-67
+MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\54d22e191df0bfef3fbc7474b04218b3\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:26:5-67
+	android:name
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:7:5-81
+MERGED from [com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:11:5-81
+MERGED from [com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:7:22-78
 application
-ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:5:5-19:19
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:9:5-34:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\750e11957bf7041179375a87d64fa3cb\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\750e11957bf7041179375a87d64fa3cb\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:14:5-28:19
@@ -146,31 +171,61 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ha
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\73530a2d0c1df4b3085807c82555ce12\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:12:9-41
+	tools:ignore
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:17:9-48
 	android:roundIcon
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:9:9-53
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:13:9-53
 	android:icon
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:7:9-48
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:11:9-48
 	android:allowBackup
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:11:9-54
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:15:9-54
+	android:usesCleartextTraffic
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:16:9-44
+activity#com.project.agro_retailerapp.SignUpActivity
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:18:9-61
+	android:name
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:18:19-49
+activity#com.project.agro_retailerapp.LoginActivity
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:19:9-51
+	android:name
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:19:19-48
+activity#com.project.agro_retailerapp.Retailers.RetailerMainActivity
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:20:9-68
+	android:name
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:20:19-65
+activity#com.project.agro_retailerapp.AgroTeam.AgroMainActivity
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:21:9-63
+	android:name
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:21:19-60
+activity#com.project.agro_retailerapp.Admin.AdminMainActivity
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:22:9-61
+	android:name
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:22:19-58
 activity#com.project.agro_retailerapp.SplashActivity
-ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:12:9-18:20
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:23:9-29:20
 	android:name
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:12:19-49
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:23:19-49
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:24:13-28:29
 action#android.intent.action.MAIN
-ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:27:27-74
+uses-library#org.apache.http.legacy
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:31:9-33:40
+	android:required
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:32:13-50
 uses-sdk
 INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml
@@ -189,6 +244,8 @@ MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\habib\.gradle\caches\t
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\780dca39713ff2fcf4eadcaf494ac982\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\213ad6fce5ea38e5799c707ff664b050\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\213ad6fce5ea38e5799c707ff664b050\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.ybq:Android-SpinKit:1.4.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\93be385ce0423bf14bb96f64a565c746\jetified-Android-SpinKit-1.4.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.ybq:Android-SpinKit:1.4.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\93be385ce0423bf14bb96f64a565c746\jetified-Android-SpinKit-1.4.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\f52122426ed85128097908a2e58f6328\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\f52122426ed85128097908a2e58f6328\cardview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.android.volley:volley:1.1.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\f1d57169f456ec18db6c386ecf8bd7c5\jetified-volley-1.1.1\AndroidManifest.xml:7:5-43
@@ -317,10 +374,6 @@ INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main
 		INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml
 		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml
 		INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:11:5-81
-	android:name
-		ADDED from [com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:11:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from [com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:12:5-80
 	android:name
@@ -385,20 +438,6 @@ ADDED from [com.google.firebase:firebase-messaging:20.1.0] C:\Users\habib\.gradl
 		ADDED from [com.google.firebase:firebase-messaging:20.1.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\f8aed73e89abf00880befa153ff6be63\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:40:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-messaging:20.1.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\f8aed73e89abf00880befa153ff6be63\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:39:17-119
-uses-permission#android.permission.INTERNET
-ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\42956f4f6a6bdf3aa8822b7450cb24db\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\d91158852cba7dc319a1827a983316d0\jetified-play-services-measurement-api-17.2.1\AndroidManifest.xml:22:5-67
-MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\d91158852cba7dc319a1827a983316d0\jetified-play-services-measurement-api-17.2.1\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\d67642eb3ba114a4929fa95d0eeedcdc\jetified-firebase-iid-20.0.2\AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:20.0.2] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\d67642eb3ba114a4929fa95d0eeedcdc\jetified-firebase-iid-20.0.2\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\db0cf08c6e1a3275be055e7b069cd85c\jetified-play-services-measurement-impl-17.2.1\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-impl:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\db0cf08c6e1a3275be055e7b069cd85c\jetified-play-services-measurement-impl-17.2.1\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\6a59ef0df230ea0430984bc2a6189a6a\jetified-play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\6a59ef0df230ea0430984bc2a6189a6a\jetified-play-services-measurement-sdk-api-17.2.1\AndroidManifest.xml:23:5-67
-MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\54d22e191df0bfef3fbc7474b04218b3\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:26:5-67
-MERGED from [com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\54d22e191df0bfef3fbc7474b04218b3\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:26:5-67
-	android:name
-		ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\42956f4f6a6bdf3aa8822b7450cb24db\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:23:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.android.gms:play-services-measurement:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\42956f4f6a6bdf3aa8822b7450cb24db\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:24:5-79
 MERGED from [com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\d91158852cba7dc319a1827a983316d0\jetified-play-services-measurement-api-17.2.1\AndroidManifest.xml:23:5-79
