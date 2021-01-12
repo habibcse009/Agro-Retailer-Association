@@ -2,10 +2,10 @@ package com.project.agro_retailerapp;
 
 public class Constant {
 
-    public static final String MAIN_URL = "https://projectsandroid.com/agro_retailer";
-    public static final String BASE_URL = "https://projectsandroid.com/agro_retailer";
+    public static final String MAIN_URL = "https://projectsandroid.com/agro_retailer/";
+    public static final String BASE_URL = "https://projectsandroid.com/agro_retailer/";
 
-    public static final String HOST_URL = "http://efarmers.cf/";
+    public static final String HOST_URL = "https://projectsandroid.com/agro_retailer/";
 
 //    public static final String MAIN_URL="https://android.nkrit.com/efarmers/android";
 //    public static final String HOST_URL="https://android.nkrit.com/efarmers/";
@@ -131,10 +131,13 @@ public class Constant {
 
     public static final String KEY_DESCRIPTION = "description";
     public static final String KEY_FARMER_CELL = "farmer_cell";
+    public static final String KEY_AGRo_CELL = "agro_cell";
 
 
     //We will use this to store the user cell number into shared preference
-    public static final String SHARED_PREF_NAME = "com.app.accident.userlogin"; //pcakage name+ id
+   // package com.project.agro_retailerapp;
+
+    public static final String SHARED_PREF_NAME = "com.project.agro_retailerapp.userlogin"; //pcakage name+ id
 
     //This would be used to store the cell of current logged in user
     public static final String CELL_SHARED_PREF = "cell";

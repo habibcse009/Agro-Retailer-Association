@@ -3,15 +3,18 @@ package com.project.agro_retailerapp.AgroTeam;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.Uri;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+import com.project.agro_retailerapp.AgroTeam.Crops.CropsActivity;
+import com.project.agro_retailerapp.AgroTeam.Orders.AgroOrderActivity;
+import com.project.agro_retailerapp.AgroTeam.Products.AddProductActivity;
+import com.project.agro_retailerapp.AgroTeam.Products.AllProductsActivity;
+import com.project.agro_retailerapp.AgroTeam.Profile.ProfileAgroActivity;
 import com.project.agro_retailerapp.Constant;
 import com.project.agro_retailerapp.R;
-import com.project.agro_retailerapp.utils.LocaleManager;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
@@ -50,8 +53,8 @@ public class AgroMainActivity extends AppCompatActivity {
         cardProfile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //  Intent intent=new Intent(AgroMainActivity.this, ProfileActivity.class);
-                //  startActivity(intent);
+                Intent intent = new Intent(AgroMainActivity.this, ProfileAgroActivity.class);
+                startActivity(intent);
 
             }
         });
@@ -59,8 +62,10 @@ public class AgroMainActivity extends AppCompatActivity {
         cardGovtNotice.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //  Intent intent=new Intent( AgroMainActivity.this, ViewNoticeActivity.class);
+                //  Intent intent = new Intent(AgroMainActivity.this, ViewNoticeActivity.class);
                 //  startActivity(intent);
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.dae.gov.bd/site/view/notices/%E0%A6%A8%E0%A7%8B%E0%A6%9F%E0%A6%BF%E0%A6%B6"));
+                startActivity(browserIntent);
 
             }
         });
@@ -69,8 +74,8 @@ public class AgroMainActivity extends AppCompatActivity {
         cardInfo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //  Intent intent=new Intent( AgroMainActivity.this, CropsActivity.class);
-                //  startActivity(intent);
+                Intent intent = new Intent(AgroMainActivity.this, CropsActivity.class);
+                startActivity(intent);
 
             }
         });
@@ -79,8 +84,8 @@ public class AgroMainActivity extends AppCompatActivity {
         cardFarmerOrders.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //       Intent intent=new Intent( AgroMainActivity.this, FarmerOrderActivity.class);
-                //       startActivity(intent);
+                Intent intent = new Intent(AgroMainActivity.this, AgroOrderActivity.class);
+                startActivity(intent);
 
             }
         });
@@ -88,9 +93,9 @@ public class AgroMainActivity extends AppCompatActivity {
         cardProducts.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //   Intent intent=new Intent( AgroMainActivity.this, AllProductsActivity.class);
-                //   intent.putExtra("type","farmer");
-                //    startActivity(intent);
+                Intent intent = new Intent(AgroMainActivity.this, AllProductsActivity.class);
+                intent.putExtra("type", "agro");
+                startActivity(intent);
 
             }
         });
@@ -98,8 +103,8 @@ public class AgroMainActivity extends AppCompatActivity {
         cardAddProducts.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //     Intent intent=new Intent( AgroMainActivity.this, AddProductActivity.class);
-                //     startActivity(intent);
+                Intent intent = new Intent(AgroMainActivity.this, AddProductActivity.class);
+                startActivity(intent);
 
             }
         });
@@ -120,39 +125,39 @@ public class AgroMainActivity extends AppCompatActivity {
     }
 
 
-   /* @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.language_menu, menu);
-        return true;
-    }
+    /* @Override
+     public boolean onCreateOptionsMenu(Menu menu) {
+         // Inflate the menu; this adds items to the action bar if it is present.
+         getMenuInflater().inflate(R.menu.language_menu, menu);
+         return true;
+     }
 
 
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-        switch (id) {
-            case R.id.local_english:
-                setNewLocale(this, LocaleManager.ENGLISH);
-                return true;
+     @Override
+     public boolean onOptionsItemSelected(MenuItem item) {
+         int id = item.getItemId();
+         switch (id) {
+             case R.id.local_english:
+                 setNewLocale(this, LocaleManager.ENGLISH);
+                 return true;
 
 
-            case R.id.local_spanish:
-                setNewLocale(this, LocaleManager.BANGLA);
-                return true;
+             case R.id.local_spanish:
+                 setNewLocale(this, LocaleManager.BANGLA);
+                 return true;
 
 
-        }
+         }
 
-        return super.onOptionsItemSelected(item);
-    }
+         return super.onOptionsItemSelected(item);
+     }
 
-    private void setNewLocale(AppCompatActivity mContext, @LocaleManager.LocaleDef String language) {
-        LocaleManager.setNewLocale(this, language);
-        Intent intent = mContext.getIntent();
-        startActivity(intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK));
-    }
-*/
+     private void setNewLocale(AppCompatActivity mContext, @LocaleManager.LocaleDef String language) {
+         LocaleManager.setNewLocale(this, language);
+         Intent intent = mContext.getIntent();
+         startActivity(intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK));
+     }
+ */
     //double backpress to exit
     @Override
     public void onBackPressed() {
