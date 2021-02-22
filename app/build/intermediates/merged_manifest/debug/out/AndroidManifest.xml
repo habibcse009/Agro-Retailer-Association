@@ -28,6 +28,10 @@
         android:testOnly="true"
         android:theme="@style/Theme.Agro_RetailerApp"
         android:usesCleartextTraffic="true" >
+        <activity android:name="com.project.agro_retailerapp.Admin.UserList.RetailerListActivity" />
+        <activity android:name="com.project.agro_retailerapp.Admin.UserList.AgroListActivity" />
+        <activity android:name="com.project.agro_retailerapp.Admin.Profile.EditProfileAdminActivity" />
+        <activity android:name="com.project.agro_retailerapp.Admin.Profile.ProfileAdminActivity" />
         <activity android:name="com.project.agro_retailerapp.Retailers.OrderListActivity" />
         <activity android:name="com.project.agro_retailerapp.Retailers.Profile.EditProfileRetailerActivity" />
         <activity android:name="com.project.agro_retailerapp.Retailers.Profile.ProfileRetailerActivity" />

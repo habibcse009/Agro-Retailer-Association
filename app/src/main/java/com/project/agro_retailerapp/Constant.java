@@ -24,8 +24,14 @@ public class Constant {
     public static final String RETAILERS_PROFILE_URL = MAIN_URL + "/retailers_profile.php?cell=";
 
     public static final String PROFILE_UPDATE_URL = MAIN_URL + "/update_profile.php";
+    public static final String PROFILECADMN_URL = MAIN_URL + "/profileAdmn.php?cell=";
+    public static final String PROFILEADMN_UPDATE_URL = MAIN_URL + "/update_profileAdmn.php";
 
     public static final String RETAILERS_PROFILE_UPDATE_URL = MAIN_URL + "/retailer_profile_update.php";
+    public static final String SP_LIST_URL = MAIN_URL+"/sp_list.php";
+    public static final String DELETE_SP_URL = MAIN_URL+"/delete_sp.php";
+    public static final String CUS_LIST_URL = MAIN_URL+"/cus_list.php";
+    public static final String DELETE_CUS_URL = MAIN_URL+"/delete_cus.php";
 
     public static final String UPDATE_ORDER_URL = MAIN_URL + "/update_order.php";
 

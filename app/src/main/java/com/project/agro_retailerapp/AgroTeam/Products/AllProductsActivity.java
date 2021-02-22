@@ -1,13 +1,5 @@
 package com.project.agro_retailerapp.AgroTeam.Products;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.SearchView;
-import androidx.recyclerview.widget.GridLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
-
 import android.app.SearchManager;
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -30,6 +22,14 @@ import com.project.agro_retailerapp.remote.ApiInterface;
 
 import java.util.List;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.SearchView;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+
 public class AllProductsActivity extends AppCompatActivity {
 
     private RecyclerView recyclerView;
@@ -40,7 +40,7 @@ public class AllProductsActivity extends AppCompatActivity {
 
     private ProgressBar progressBar;
     SharedPreferences sharedPreferences;
-    String cell,getType;
+    String cell, getType;
     ImageView imgNoProduct;
 
 
@@ -51,17 +51,17 @@ public class AllProductsActivity extends AppCompatActivity {
 
         progressBar = findViewById(R.id.progressBar);
         recyclerView = findViewById(R.id.recycler);
-        imgNoProduct=findViewById(R.id.image_no_product);
+        imgNoProduct = findViewById(R.id.image_no_product);
 
-        getType=getIntent().getExtras().getString("type");
+        getType = getIntent().getExtras().getString("type");
 
         //Fetching cell from shared preferences
-        sharedPreferences =getSharedPreferences(Constant.SHARED_PREF_NAME, Context.MODE_PRIVATE);
+        sharedPreferences = getSharedPreferences(Constant.SHARED_PREF_NAME, Context.MODE_PRIVATE);
         cell = sharedPreferences.getString(Constant.CELL_SHARED_PREF, "Not Available");
 
 
         // set a GridLayoutManager with default vertical orientation and 3 number of columns
-        GridLayoutManager gridLayoutManager = new GridLayoutManager(getApplicationContext(),2);
+        GridLayoutManager gridLayoutManager = new GridLayoutManager(getApplicationContext(), 2);
         recyclerView.setLayoutManager(gridLayoutManager); // set LayoutManager to RecyclerView
 
 
@@ -71,17 +71,15 @@ public class AllProductsActivity extends AppCompatActivity {
 
         apiInterface = ApiClient.getApiClient().create(ApiInterface.class);
 
-        fetchData("product", "",cell);
+        fetchData("product", "", cell);
 
     }
 
-    public void fetchData(String type, String key,String cell) {
+    public void fetchData(String type, String key, String cell) {
         Call<List<Product>> call;
-        if (getType.equals("Agro")) {
+        if (getType.equals("agro")) {
             call = apiInterface.getProduct(type, key, cell);
-        }
-        else
-        {
+        } else {
             call = apiInterface.getAllProduct(type, key, cell);
         }
         call.enqueue(new Callback<List<Product>>() {
@@ -92,8 +90,7 @@ public class AllProductsActivity extends AppCompatActivity {
                 Log.d("response", productList.toString());
 
 
-                if (productList.size()==0)
-                {
+                if (productList.size() == 0) {
                     imgNoProduct.setVisibility(View.VISIBLE);
                     imgNoProduct.setImageResource(R.drawable.no_product);
                     productAdapter = new ProductAdapter(AllProductsActivity.this, productList);
@@ -101,10 +98,7 @@ public class AllProductsActivity extends AppCompatActivity {
                     recyclerView.setAdapter(productAdapter);
 
                     productAdapter.notifyDataSetChanged();//for search
-                }
-
-                else
-                {
+                } else {
 
                     imgNoProduct.setVisibility(View.GONE);
 
@@ -114,7 +108,6 @@ public class AllProductsActivity extends AppCompatActivity {
 
                     productAdapter.notifyDataSetChanged();//for search
                 }
-
 
 
             }
@@ -147,13 +140,13 @@ public class AllProductsActivity extends AppCompatActivity {
         searchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
             @Override
             public boolean onQueryTextSubmit(String query) {
-                fetchData("product", query,cell);
+                fetchData("product", query, cell);
                 return false;
             }
 
             @Override
             public boolean onQueryTextChange(String newText) {
-                fetchData("product", newText,cell);
+                fetchData("product", newText, cell);
                 return false;
             }
         });
@@ -177,6 +170,6 @@ public class AllProductsActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        fetchData("product", "",cell);
+        fetchData("product", "", cell);
     }
 }

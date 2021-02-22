@@ -15,7 +15,11 @@
         android:theme="@style/Theme.Agro_RetailerApp"
         android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".Retailers.OrderListActivity"></activity>
+        <activity android:name=".Admin.UserList.RetailerListActivity"></activity>
+        <activity android:name=".Admin.UserList.AgroListActivity" />
+        <activity android:name=".Admin.Profile.EditProfileAdminActivity" />
+        <activity android:name=".Admin.Profile.ProfileAdminActivity" />
+        <activity android:name=".Retailers.OrderListActivity" />
         <activity android:name=".Retailers.Profile.EditProfileRetailerActivity" />
         <activity android:name=".Retailers.Profile.ProfileRetailerActivity" />
         <activity android:name=".AgroTeam.Products.ProductDescriptionActivity" />
