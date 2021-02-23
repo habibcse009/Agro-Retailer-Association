@@ -19,331 +19,149 @@
 13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 13-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:12:5-80
 13-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:12:22-77
-14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-14-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\42956f4f6a6bdf3aa8822b7450cb24db\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:24:5-79
-14-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\42956f4f6a6bdf3aa8822b7450cb24db\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:24:22-76
-15    <uses-permission android:name="android.permission.WAKE_LOCK" />
-15-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\42956f4f6a6bdf3aa8822b7450cb24db\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:25:5-68
-15-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\42956f4f6a6bdf3aa8822b7450cb24db\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:25:22-65
-16    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-16-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\42956f4f6a6bdf3aa8822b7450cb24db\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:26:5-110
-16-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\42956f4f6a6bdf3aa8822b7450cb24db\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:26:22-107
-17    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
-17-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\d67642eb3ba114a4929fa95d0eeedcdc\jetified-firebase-iid-20.0.2\AndroidManifest.xml:26:5-82
-17-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\d67642eb3ba114a4929fa95d0eeedcdc\jetified-firebase-iid-20.0.2\AndroidManifest.xml:26:22-79
-18
-19    <application
-19-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:9:5-54:19
-20        android:allowBackup="true"
-20-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:10:9-35
-21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.1.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\73530a2d0c1df4b3085807c82555ce12\core-1.1.0\AndroidManifest.xml:24:18-86
-22        android:debuggable="true"
-23        android:extractNativeLibs="false"
-24        android:icon="@drawable/ic_cooperation"
-24-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:11:9-48
-25        android:label="@string/app_name"
-25-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:12:9-41
-26        android:roundIcon="@drawable/ic_cooperation"
-26-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:13:9-53
-27        android:supportsRtl="true"
-27-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:14:9-35
-28        android:testOnly="true"
-29        android:theme="@style/Theme.Agro_RetailerApp"
-29-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:15:9-54
-30        android:usesCleartextTraffic="true" >
-30-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:16:9-44
-31        <activity android:name="com.project.agro_retailerapp.Admin.UserList.RetailerListActivity" />
-31-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:18:9-82
-31-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:18:19-70
-32        <activity android:name="com.project.agro_retailerapp.Admin.UserList.AgroListActivity" />
-32-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:19:9-69
-32-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:19:19-66
-33        <activity android:name="com.project.agro_retailerapp.Admin.Profile.EditProfileAdminActivity" />
-33-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:20:9-76
-33-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:20:19-73
-34        <activity android:name="com.project.agro_retailerapp.Admin.Profile.ProfileAdminActivity" />
-34-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:21:9-72
-34-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:21:19-69
-35        <activity android:name="com.project.agro_retailerapp.Retailers.OrderListActivity" />
-35-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:22:9-65
-35-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:22:19-62
-36        <activity android:name="com.project.agro_retailerapp.Retailers.Profile.EditProfileRetailerActivity" />
-36-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:23:9-83
-36-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:23:19-80
-37        <activity android:name="com.project.agro_retailerapp.Retailers.Profile.ProfileRetailerActivity" />
-37-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:24:9-79
-37-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:24:19-76
-38        <activity android:name="com.project.agro_retailerapp.AgroTeam.Products.ProductDescriptionActivity" />
-38-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:25:9-82
-38-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:25:19-79
-39        <activity android:name="com.project.agro_retailerapp.AgroTeam.Orders.OrderActivity" />
-39-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:26:9-67
-39-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:26:19-64
-40        <activity android:name="com.project.agro_retailerapp.AgroTeam.Products.AllProductsActivity" />
-40-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:27:9-75
-40-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:27:19-72
-41        <activity android:name="com.project.agro_retailerapp.AgroTeam.Products.AddProductActivity" />
-41-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:28:9-74
-41-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:28:19-71
-42        <activity android:name="com.project.agro_retailerapp.AgroTeam.Orders.OrderDetailsActivity" />
-42-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:29:9-74
-42-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:29:19-71
-43        <activity android:name="com.project.agro_retailerapp.AgroTeam.Orders.AgroOrderActivity" />
-43-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:30:9-71
-43-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:30:19-68
-44        <activity android:name="com.project.agro_retailerapp.AgroTeam.Crops.AluSonrokkhonActivity" />
-44-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:31:9-74
-44-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:31:19-71
-45        <activity android:name="com.project.agro_retailerapp.AgroTeam.Crops.MatirUrborotaActivity" />
-45-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:32:9-74
-45-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:32:19-71
-46        <activity android:name="com.project.agro_retailerapp.AgroTeam.Crops.BijerJotnoActivity" />
-46-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:33:9-71
-46-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:33:19-68
-47        <activity android:name="com.project.agro_retailerapp.AgroTeam.Crops.CropsActivity" />
-47-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:34:9-66
-47-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:34:19-63
-48        <activity android:name="com.project.agro_retailerapp.AgroTeam.ViewNoticeActivity" />
-48-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:35:9-65
-48-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:35:19-62
-49        <activity android:name="com.project.agro_retailerapp.AgroTeam.Profile.EditProfileAgroActivity" />
-49-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:36:9-78
-49-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:36:19-75
-50        <activity android:name="com.project.agro_retailerapp.AgroTeam.Profile.ProfileAgroActivity" />
-50-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:37:9-74
-50-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:37:19-71
-51        <activity android:name="com.project.agro_retailerapp.SignUpActivity" />
-51-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:38:9-52
-51-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:38:19-49
-52        <activity android:name="com.project.agro_retailerapp.LoginActivity" />
-52-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:39:9-51
-52-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:39:19-48
-53        <activity android:name="com.project.agro_retailerapp.Retailers.RetailerMainActivity" />
-53-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:40:9-68
-53-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:40:19-65
-54        <activity android:name="com.project.agro_retailerapp.AgroTeam.AgroMainActivity" />
-54-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:41:9-63
-54-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:41:19-60
-55        <activity android:name="com.project.agro_retailerapp.Admin.AdminMainActivity" />
-55-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:42:9-61
-55-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:42:19-58
-56        <activity android:name="com.project.agro_retailerapp.SplashActivity" >
-56-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:43:9-49:20
-56-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:43:19-49
-57            <intent-filter>
-57-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:44:13-48:29
-58                <action android:name="android.intent.action.MAIN" />
-58-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:45:17-69
-58-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:45:25-66
+14
+15    <application
+15-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:9:5-54:19
+16        android:allowBackup="true"
+16-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\73530a2d0c1df4b3085807c82555ce12\core-1.1.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:extractNativeLibs="false"
+20        android:icon="@drawable/ic_cooperation"
+20-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:11:9-48
+21        android:label="@string/app_name"
+21-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:12:9-41
+22        android:roundIcon="@drawable/ic_cooperation"
+22-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:13:9-53
+23        android:supportsRtl="true"
+23-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:14:9-35
+24        android:testOnly="true"
+25        android:theme="@style/Theme.Agro_RetailerApp"
+25-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:15:9-54
+26        android:usesCleartextTraffic="true" >
+26-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:16:9-44
+27        <activity android:name="com.project.agro_retailerapp.Retailers.OrderListRetailerActivity" />
+27-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:18:9-82
+27-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:18:19-70
+28        <activity android:name="com.project.agro_retailerapp.Admin.UserList.RetailerListActivity" />
+28-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:19:9-73
+28-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:19:19-70
+29        <activity android:name="com.project.agro_retailerapp.Admin.UserList.AgroListActivity" />
+29-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:20:9-69
+29-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:20:19-66
+30        <activity android:name="com.project.agro_retailerapp.Admin.Profile.EditProfileAdminActivity" />
+30-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:21:9-76
+30-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:21:19-73
+31        <activity android:name="com.project.agro_retailerapp.Admin.Profile.ProfileAdminActivity" />
+31-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:22:9-72
+31-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:22:19-69
+32        <activity android:name="com.project.agro_retailerapp.Retailers.Profile.EditProfileRetailerActivity" />
+32-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:23:9-83
+32-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:23:19-80
+33        <activity android:name="com.project.agro_retailerapp.Retailers.Profile.ProfileRetailerActivity" />
+33-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:24:9-79
+33-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:24:19-76
+34        <activity android:name="com.project.agro_retailerapp.AgroTeam.Products.ProductDescriptionActivity" />
+34-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:25:9-82
+34-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:25:19-79
+35        <activity android:name="com.project.agro_retailerapp.AgroTeam.Orders.OrderActivity" />
+35-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:26:9-67
+35-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:26:19-64
+36        <activity android:name="com.project.agro_retailerapp.AgroTeam.Products.AllProductsActivity" />
+36-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:27:9-75
+36-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:27:19-72
+37        <activity android:name="com.project.agro_retailerapp.AgroTeam.Products.AddProductActivity" />
+37-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:28:9-74
+37-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:28:19-71
+38        <activity android:name="com.project.agro_retailerapp.AgroTeam.Orders.OrderDetailsActivity" />
+38-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:29:9-74
+38-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:29:19-71
+39        <activity android:name="com.project.agro_retailerapp.AgroTeam.Orders.AgroOrderActivity" />
+39-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:30:9-71
+39-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:30:19-68
+40        <activity android:name="com.project.agro_retailerapp.AgroTeam.Crops.AluSonrokkhonActivity" />
+40-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:31:9-74
+40-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:31:19-71
+41        <activity android:name="com.project.agro_retailerapp.AgroTeam.Crops.MatirUrborotaActivity" />
+41-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:32:9-74
+41-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:32:19-71
+42        <activity android:name="com.project.agro_retailerapp.AgroTeam.Crops.BijerJotnoActivity" />
+42-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:33:9-71
+42-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:33:19-68
+43        <activity android:name="com.project.agro_retailerapp.AgroTeam.Crops.CropsActivity" />
+43-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:34:9-66
+43-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:34:19-63
+44        <activity android:name="com.project.agro_retailerapp.AgroTeam.ViewNoticeActivity" />
+44-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:35:9-65
+44-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:35:19-62
+45        <activity android:name="com.project.agro_retailerapp.AgroTeam.Profile.EditProfileAgroActivity" />
+45-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:36:9-78
+45-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:36:19-75
+46        <activity android:name="com.project.agro_retailerapp.AgroTeam.Profile.ProfileAgroActivity" />
+46-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:37:9-74
+46-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:37:19-71
+47        <activity android:name="com.project.agro_retailerapp.SignUpActivity" />
+47-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:38:9-52
+47-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:38:19-49
+48        <activity android:name="com.project.agro_retailerapp.LoginActivity" />
+48-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:39:9-51
+48-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:39:19-48
+49        <activity android:name="com.project.agro_retailerapp.Retailers.RetailerMainActivity" />
+49-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:40:9-68
+49-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:40:19-65
+50        <activity android:name="com.project.agro_retailerapp.AgroTeam.AgroMainActivity" />
+50-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:41:9-63
+50-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:41:19-60
+51        <activity android:name="com.project.agro_retailerapp.Admin.AdminMainActivity" />
+51-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:42:9-61
+51-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:42:19-58
+52        <activity android:name="com.project.agro_retailerapp.SplashActivity" >
+52-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:43:9-49:20
+52-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:43:19-49
+53            <intent-filter>
+53-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:44:13-48:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:45:17-69
+54-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:45:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:47:17-77
+56-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:47:27-74
+57            </intent-filter>
+58        </activity>
 59
-60                <category android:name="android.intent.category.LAUNCHER" />
-60-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:47:17-77
-60-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:47:27-74
-61            </intent-filter>
-62        </activity>
+60        <uses-library
+60-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:51:9-53:40
+61            android:name="org.apache.http.legacy"
+61-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:52:13-50
+62            android:required="false" />
+62-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:53:13-37
 63
-64        <uses-library
-64-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:51:9-53:40
-65            android:name="org.apache.http.legacy"
-65-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:52:13-50
-66            android:required="false" />
-66-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:53:13-37
+64        <activity
+64-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:15:9-17:67
+65            android:name="in.mayanknagwanshi.imagepicker.ImageSelectActivity"
+65-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:16:13-78
+66            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+66-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:17:13-64
 67
-68        <activity
-68-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:15:9-17:67
-69            android:name="in.mayanknagwanshi.imagepicker.ImageSelectActivity"
-69-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:16:13-78
-70            android:theme="@style/Theme.AppCompat.Light.Dialog" />
-70-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:17:13-64
-71
-72        <provider
-72-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:19:9-27:20
-73            android:name="androidx.core.content.FileProvider"
-73-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:20:13-62
-74            android:authorities="com.project.agro_retailerapp.provider"
-74-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:21:13-60
-75            android:exported="false"
-75-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:22:13-37
-76            android:grantUriPermissions="true" >
-76-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:23:13-47
-77            <meta-data
-77-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:24:13-26:58
-78                android:name="android.support.FILE_PROVIDER_PATHS"
-78-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:25:17-67
-79                android:resource="@xml/provider_paths" />
-79-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:26:17-55
-80        </provider>
-81        <!--
-82             FirebaseMessagingService performs security checks at runtime,
-83             but set to not exported to explicitly avoid allowing another app to call it.
-84        -->
-85        <service
-85-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\f8aed73e89abf00880befa153ff6be63\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:28:9-34:19
-86            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-86-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\f8aed73e89abf00880befa153ff6be63\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:29:13-82
-87            android:exported="false" >
-87-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\f8aed73e89abf00880befa153ff6be63\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:30:13-37
-88            <intent-filter android:priority="-500" >
-88-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\f8aed73e89abf00880befa153ff6be63\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:31:13-33:29
-88-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\f8aed73e89abf00880befa153ff6be63\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:31:28-51
-89                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-89-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\f8aed73e89abf00880befa153ff6be63\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:32:17-78
-89-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\f8aed73e89abf00880befa153ff6be63\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:32:25-75
-90            </intent-filter>
-91        </service>
-92        <service
-92-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\f8aed73e89abf00880befa153ff6be63\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:35:9-41:19
-93            android:name="com.google.firebase.components.ComponentDiscoveryService"
-93-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\f8aed73e89abf00880befa153ff6be63\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:36:13-84
-94            android:directBootAware="true"
-94-->[com.google.firebase:firebase-common:19.3.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\6524c273c3714886d8ff16328cbd3d3b\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
-95            android:exported="false" >
-95-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\f8aed73e89abf00880befa153ff6be63\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:37:13-37
-96            <meta-data
-96-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\f8aed73e89abf00880befa153ff6be63\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:38:13-40:85
-97                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
-97-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\f8aed73e89abf00880befa153ff6be63\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:39:17-119
-98                android:value="com.google.firebase.components.ComponentRegistrar" />
-98-->[com.google.firebase:firebase-messaging:20.1.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\f8aed73e89abf00880befa153ff6be63\jetified-firebase-messaging-20.1.0\AndroidManifest.xml:40:17-82
-99            <meta-data
-99-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\d91158852cba7dc319a1827a983316d0\jetified-play-services-measurement-api-17.2.1\AndroidManifest.xml:30:13-32:85
-100                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-100-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\d91158852cba7dc319a1827a983316d0\jetified-play-services-measurement-api-17.2.1\AndroidManifest.xml:31:17-139
-101                android:value="com.google.firebase.components.ComponentRegistrar" />
-101-->[com.google.android.gms:play-services-measurement-api:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\d91158852cba7dc319a1827a983316d0\jetified-play-services-measurement-api-17.2.1\AndroidManifest.xml:32:17-82
-102            <meta-data
-102-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\1b35fce3181066229d9ce989472213f0\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:28:13-30:85
-103                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
-103-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\1b35fce3181066229d9ce989472213f0\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:29:17-115
-104                android:value="com.google.firebase.components.ComponentRegistrar" />
-104-->[com.google.firebase:firebase-datatransport:17.0.3] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\1b35fce3181066229d9ce989472213f0\jetified-firebase-datatransport-17.0.3\AndroidManifest.xml:30:17-82
-105            <meta-data
-105-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\d67642eb3ba114a4929fa95d0eeedcdc\jetified-firebase-iid-20.0.2\AndroidManifest.xml:32:13-34:85
-106                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-106-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\d67642eb3ba114a4929fa95d0eeedcdc\jetified-firebase-iid-20.0.2\AndroidManifest.xml:33:17-96
-107                android:value="com.google.firebase.components.ComponentRegistrar" />
-107-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\d67642eb3ba114a4929fa95d0eeedcdc\jetified-firebase-iid-20.0.2\AndroidManifest.xml:34:17-82
-108        </service>
-109
-110        <receiver
-110-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\42956f4f6a6bdf3aa8822b7450cb24db\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:29:9-33:20
-111            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-111-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\42956f4f6a6bdf3aa8822b7450cb24db\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:30:13-85
-112            android:enabled="true"
-112-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\42956f4f6a6bdf3aa8822b7450cb24db\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:31:13-35
-113            android:exported="false" >
-113-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\42956f4f6a6bdf3aa8822b7450cb24db\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:32:13-37
-114        </receiver>
-115        <receiver
-115-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\42956f4f6a6bdf3aa8822b7450cb24db\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:34:9-42:20
-116            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
-116-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\42956f4f6a6bdf3aa8822b7450cb24db\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:35:13-100
-117            android:enabled="true"
-117-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\42956f4f6a6bdf3aa8822b7450cb24db\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:36:13-35
-118            android:exported="true"
-118-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\42956f4f6a6bdf3aa8822b7450cb24db\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:37:13-36
-119            android:permission="android.permission.INSTALL_PACKAGES" >
-119-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\42956f4f6a6bdf3aa8822b7450cb24db\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:38:13-69
-120            <intent-filter>
-120-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\42956f4f6a6bdf3aa8822b7450cb24db\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:39:13-41:29
-121                <action android:name="com.android.vending.INSTALL_REFERRER" />
-121-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\42956f4f6a6bdf3aa8822b7450cb24db\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:40:17-79
-121-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\42956f4f6a6bdf3aa8822b7450cb24db\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:40:25-76
-122            </intent-filter>
-123        </receiver>
-124
-125        <service
-125-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\42956f4f6a6bdf3aa8822b7450cb24db\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:44:9-47:40
-126            android:name="com.google.android.gms.measurement.AppMeasurementService"
-126-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\42956f4f6a6bdf3aa8822b7450cb24db\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:45:13-84
-127            android:enabled="true"
-127-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\42956f4f6a6bdf3aa8822b7450cb24db\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:46:13-35
-128            android:exported="false" />
-128-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\42956f4f6a6bdf3aa8822b7450cb24db\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:47:13-37
-129        <service
-129-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\42956f4f6a6bdf3aa8822b7450cb24db\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:48:9-52:72
-130            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-130-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\42956f4f6a6bdf3aa8822b7450cb24db\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:49:13-87
-131            android:enabled="true"
-131-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\42956f4f6a6bdf3aa8822b7450cb24db\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:50:13-35
-132            android:exported="false"
-132-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\42956f4f6a6bdf3aa8822b7450cb24db\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:51:13-37
-133            android:permission="android.permission.BIND_JOB_SERVICE" />
-133-->[com.google.android.gms:play-services-measurement:17.2.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\42956f4f6a6bdf3aa8822b7450cb24db\jetified-play-services-measurement-17.2.1\AndroidManifest.xml:52:13-69
-134
-135        <receiver
-135-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\d67642eb3ba114a4929fa95d0eeedcdc\jetified-firebase-iid-20.0.2\AndroidManifest.xml:37:9-44:20
-136            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-136-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\d67642eb3ba114a4929fa95d0eeedcdc\jetified-firebase-iid-20.0.2\AndroidManifest.xml:38:13-78
-137            android:exported="true"
-137-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\d67642eb3ba114a4929fa95d0eeedcdc\jetified-firebase-iid-20.0.2\AndroidManifest.xml:39:13-36
-138            android:permission="com.google.android.c2dm.permission.SEND" >
-138-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\d67642eb3ba114a4929fa95d0eeedcdc\jetified-firebase-iid-20.0.2\AndroidManifest.xml:40:13-73
-139            <intent-filter>
-139-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\d67642eb3ba114a4929fa95d0eeedcdc\jetified-firebase-iid-20.0.2\AndroidManifest.xml:41:13-43:29
-140                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-140-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\d67642eb3ba114a4929fa95d0eeedcdc\jetified-firebase-iid-20.0.2\AndroidManifest.xml:42:17-81
-140-->[com.google.firebase:firebase-iid:20.0.2] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\d67642eb3ba114a4929fa95d0eeedcdc\jetified-firebase-iid-20.0.2\AndroidManifest.xml:42:25-78
-141            </intent-filter>
-142        </receiver>
-143
-144        <provider
-144-->[com.google.firebase:firebase-common:19.3.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\6524c273c3714886d8ff16328cbd3d3b\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
-145            android:name="com.google.firebase.provider.FirebaseInitProvider"
-145-->[com.google.firebase:firebase-common:19.3.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\6524c273c3714886d8ff16328cbd3d3b\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
-146            android:authorities="com.project.agro_retailerapp.firebaseinitprovider"
-146-->[com.google.firebase:firebase-common:19.3.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\6524c273c3714886d8ff16328cbd3d3b\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
-147            android:exported="false"
-147-->[com.google.firebase:firebase-common:19.3.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\6524c273c3714886d8ff16328cbd3d3b\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
-148            android:initOrder="100" />
-148-->[com.google.firebase:firebase-common:19.3.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\6524c273c3714886d8ff16328cbd3d3b\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
-149
-150        <activity
-150-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\4858ba8f6e273fdf2dcb9d88023c9534\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-151            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-151-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\4858ba8f6e273fdf2dcb9d88023c9534\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-152            android:exported="false"
-152-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\4858ba8f6e273fdf2dcb9d88023c9534\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-153            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-153-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\4858ba8f6e273fdf2dcb9d88023c9534\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-154
-155        <meta-data
-155-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\f46279d3478497538e817a8da381f082\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-156            android:name="com.google.android.gms.version"
-156-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\f46279d3478497538e817a8da381f082\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-157            android:value="@integer/google_play_services_version" />
-157-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\f46279d3478497538e817a8da381f082\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-158
-159        <service
-159-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\54d22e191df0bfef3fbc7474b04218b3\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:29:9-35:19
-160            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
-160-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\54d22e191df0bfef3fbc7474b04218b3\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:30:13-103
-161            android:exported="false" >
-161-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\54d22e191df0bfef3fbc7474b04218b3\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:31:13-37
-162            <meta-data
-162-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\54d22e191df0bfef3fbc7474b04218b3\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:32:13-34:39
-163                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
-163-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\54d22e191df0bfef3fbc7474b04218b3\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:33:17-94
-164                android:value="cct" />
-164-->[com.google.android.datatransport:transport-backend-cct:2.2.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\54d22e191df0bfef3fbc7474b04218b3\jetified-transport-backend-cct-2.2.0\AndroidManifest.xml:34:17-36
-165        </service>
-166        <service
-166-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\13219bea15e71fcb9a7d0111b567b587\jetified-transport-runtime-2.2.0\AndroidManifest.xml:26:9-30:19
-167            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
-167-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\13219bea15e71fcb9a7d0111b567b587\jetified-transport-runtime-2.2.0\AndroidManifest.xml:27:13-117
-168            android:exported="false"
-168-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\13219bea15e71fcb9a7d0111b567b587\jetified-transport-runtime-2.2.0\AndroidManifest.xml:28:13-37
-169            android:permission="android.permission.BIND_JOB_SERVICE" >
-169-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\13219bea15e71fcb9a7d0111b567b587\jetified-transport-runtime-2.2.0\AndroidManifest.xml:29:13-69
-170        </service>
-171
-172        <receiver
-172-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\13219bea15e71fcb9a7d0111b567b587\jetified-transport-runtime-2.2.0\AndroidManifest.xml:32:9-34:40
-173            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
-173-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\13219bea15e71fcb9a7d0111b567b587\jetified-transport-runtime-2.2.0\AndroidManifest.xml:33:13-132
-174            android:exported="false" />
-174-->[com.google.android.datatransport:transport-runtime:2.2.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\13219bea15e71fcb9a7d0111b567b587\jetified-transport-runtime-2.2.0\AndroidManifest.xml:34:13-37
-175    </application>
-176
-177</manifest>
+68        <provider
+68-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:19:9-27:20
+69            android:name="androidx.core.content.FileProvider"
+69-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:20:13-62
+70            android:authorities="com.project.agro_retailerapp.provider"
+70-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:21:13-60
+71            android:exported="false"
+71-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:22:13-37
+72            android:grantUriPermissions="true" >
+72-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:23:13-47
+73            <meta-data
+73-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:24:13-26:58
+74                android:name="android.support.FILE_PROVIDER_PATHS"
+74-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:25:17-67
+75                android:resource="@xml/provider_paths" />
+75-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:26:17-55
+76        </provider>
+77    </application>
+78
+79</manifest>

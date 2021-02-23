@@ -57,7 +57,7 @@ public class RetailerMainActivity extends AppCompatActivity {
         cardMyOrder.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(RetailerMainActivity.this, OrderListActivity.class);
+                Intent intent = new Intent(RetailerMainActivity.this, OrderListRetailerActivity.class);
                 startActivity(intent);
             }
         });

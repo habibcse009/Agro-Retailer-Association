@@ -17,11 +17,14 @@ public class Constant {
 
     public static final String SIGNUP_URL = MAIN_URL + "/signup.php";
     public static final String ORDER_SUBMIT_URL = MAIN_URL + "/order_submit.php";
-
+    public static final String KEY_BKASHTEX = "bkash_tex";
+    public static final String KEY_SP_CELL = "sp_cell";
+    public static final String KEY_CUS_CELL = "cus_cell";
     public static final String PROFILE_URL = MAIN_URL + "/profile.php?cell=";
     public static final String GET_REVIEW_URL = MAIN_URL + "/get_review.php?id=";
 
     public static final String RETAILERS_PROFILE_URL = MAIN_URL + "/retailers_profile.php?cell=";
+    public static final String SP_ORDER_LIST_URL = MAIN_URL + "/sp_order_list.php?cell=";
 
     public static final String PROFILE_UPDATE_URL = MAIN_URL + "/update_profile.php";
     public static final String PROFILECADMN_URL = MAIN_URL + "/profileAdmn.php?cell=";
