@@ -190,7 +190,7 @@ public class AgroOrderActivity extends AppCompatActivity {
 
                     HashMap<String, String> user_msg = new HashMap<>();
 
-                    user_msg.put(Constant.KEY_NAME, "Product  :   " + name);
+                    user_msg.put(Constant.KEY_NAME, "Product      :   " + name);
                     user_msg.put(Constant.KEY_PRICE, "Price            :    " + price);
                     user_msg.put(Constant.KEY_QUANTITY, "Quantity      :    " + quantity);
                     user_msg.put(Constant.KEY_STATUS, "Status          :    " + status);

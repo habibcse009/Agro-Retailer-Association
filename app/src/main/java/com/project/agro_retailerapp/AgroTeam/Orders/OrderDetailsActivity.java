@@ -75,7 +75,6 @@ public class OrderDetailsActivity extends AppCompatActivity {
         price = getIntent().getExtras().getString("price");
         status = getIntent().getExtras().getString("status");
         cus_cell = getIntent().getExtras().getString("cus_cell");
-        //bkash_tex=getIntent().getExtras().getString("bkash_tex");
         bkash_tex = getIntent().getExtras().getString("bkash_tex");
         address = getIntent().getExtras().getString("address");
         date = getIntent().getExtras().getString("date");
