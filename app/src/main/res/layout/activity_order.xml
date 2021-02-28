@@ -151,8 +151,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/round_border"
-                android:hint="Enter bKash Tex ID here"
+                android:hint="Enter bKash Transection ID here"
                 android:inputType="text"
+                android:maxLength="10"
+
                 android:padding="16dp"
                 android:textSize="16sp" />
 

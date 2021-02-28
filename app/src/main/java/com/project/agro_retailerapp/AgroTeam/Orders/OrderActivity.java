@@ -114,10 +114,11 @@ public class OrderActivity extends AppCompatActivity {
                 if (address.isEmpty()) {
                     etxtFullAddress.setError("Enter full address");
                     etxtFullAddress.requestFocus();
-                } else if (bkash_tex.isEmpty()) {
-                    etxBkashTexID.setError("Enter bKash TexID");
+                } else if (bkash_tex.isEmpty() || bkash_tex.length() != 10) {
+                    etxBkashTexID.setError("Enter bKash Transaction ID and Must contain 10 digit");
                     etxBkashTexID.requestFocus();
-                } else {
+
+                    } else {
                     orderSubmit();
 
                 }
