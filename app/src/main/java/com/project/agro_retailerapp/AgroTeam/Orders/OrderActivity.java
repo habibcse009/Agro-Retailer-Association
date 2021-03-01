@@ -85,7 +85,7 @@ public class OrderActivity extends AppCompatActivity {
         id = getIntent().getExtras().getString("id");
 
         txtName.setText(getName);
-        txtPrice.setText("" + Integer.valueOf(getPrice) * 1);
+        txtPrice.setText("" + Integer.valueOf(getPrice) * 10);
 
         btnOrderSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
