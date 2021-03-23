@@ -4,11 +4,15 @@ import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.StrictMode;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -21,8 +25,16 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.URL;
+import java.net.URLConnection;
+import java.net.URLEncoder;
 import java.util.HashMap;
+import java.util.Locale;
 import java.util.Map;
+import java.util.Random;
 
 import androidx.appcompat.app.AppCompatActivity;
 import es.dmoral.toasty.Toasty;
@@ -30,6 +42,11 @@ import es.dmoral.toasty.Toasty;
 public class SignUpActivity extends AppCompatActivity {
 
     private ProgressDialog loading;
+    private final String PREF_OTP = "com.app.otp";
+    private ProgressDialog progressDialog;
+
+    SharedPreferences.Editor editor;
+    SharedPreferences sp;
 
     TextView txtSignup;
     String name, accountType, cell, gender, email, location, password;
@@ -57,6 +74,9 @@ public class SignUpActivity extends AppCompatActivity {
 
         etxtPassword = findViewById(R.id.password);
         etxtGender = findViewById(R.id.gender);
+
+        sp = getSharedPreferences(PREF_OTP, MODE_PRIVATE);
+        editor = sp.edit();
 
 
         //For choosing account type and open alert dialog
@@ -276,9 +296,11 @@ public class SignUpActivity extends AppCompatActivity {
                     requestFocus(etxtPassword);
 
                 } else {
+                    MyAsyncTasks myAsyncTasks = new MyAsyncTasks();
+                    myAsyncTasks.execute();
 
 
-                    signup();
+                  //  signup();
 
 
                 }
@@ -387,9 +409,179 @@ public class SignUpActivity extends AppCompatActivity {
         }
     }
 
+// work on OTP
+
+    public class MyAsyncTasks extends AsyncTask<String, String, String> {
+
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+            // display a progress dialog for good user experience
+            progressDialog = new ProgressDialog(SignUpActivity.this);
+            progressDialog.setMessage("Please Wait. Sending otp code...");
+            progressDialog.setCancelable(false);
+            progressDialog.show();
+        }
+
+        @Override
+        protected String doInBackground(String... params) {
+
+            // implement API in background and store the response in current variable
+
+            try {
+
+                //sms api token
+                // String token = "9965fd5c3678c7a06cb718f2f3d3564b";
+                String token = "2a30df0df1edf4a4a8fecce9dc01ba79";
+
+                //Single or Multiple mobiles numbers separated by comma
+
+                String to = cell;
+
+
+                //generate 4 digit random code
+                Random r = new Random();
+                String code = String.format(Locale.ENGLISH, "%04d", r.nextInt(9000));
+
+                editor.putString("otp_code", code);
+                editor.commit();
+
+
+                //Your message to send, Add URL encoding here.
+                String textmessage = "Your OTP code is " + code + ". Enter for verification.\nStay with Agro-Retailer App. Thanks.";
+
+                URLConnection myURLConnection = null;
+                URL myURL = null;
+                BufferedReader reader = null;
+
+                //encode the message content
+                String encoded_message = URLEncoder.encode(textmessage);
+                String apiUrl = "http://api.greenweb.com.bd/api.php?";
+
+                StringBuilder sgcPostContent = new StringBuilder(apiUrl);
+                sgcPostContent.append("token=" + token);
+                sgcPostContent.append("&to=" + to);
+                sgcPostContent.append("&message=" + encoded_message);
+
+                apiUrl = sgcPostContent.toString();
+                try {
+
+                    int SDK_INT = android.os.Build.VERSION.SDK_INT;
+                    if (SDK_INT > 8) {
+                        StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder()
+                                .permitAll().build();
+                        StrictMode.setThreadPolicy(policy);
+                        //your codes here
+
+                    }
+                    //prepare connection
+                    myURL = new URL(apiUrl);
+                    myURLConnection = myURL.openConnection();
+                    myURLConnection.connect();
+                    reader = new BufferedReader(new InputStreamReader(myURLConnection.getInputStream()));
+
+                    //read the output
+                    String output;
+                    while ((output = reader.readLine()) != null)
+                        //print output
+                        Log.d("OUTPUT", "" + output);
+
+                    //Close connection
+                    reader.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+
+
+            } catch (Exception e) {
+                e.printStackTrace();
+                return "Exception: " + e.getMessage();
+            }
+            return "ok";
+        }
+
+        @Override
+        protected void onPostExecute(String s) {
+
+            // dismiss the progress dialog after receiving data from API
+            progressDialog.dismiss();
+            try {
+                // JSON Parsing of data
+                dialog();
+
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+
+
+        }
+
+    }
+
+
+    //dialog for taking otp code
+    public void dialog() {
+
+        android.app.AlertDialog.Builder dialog = new android.app.AlertDialog.Builder(SignUpActivity.this);
+        View dialogView = getLayoutInflater().inflate(R.layout.dialog_otp_input, null);
+        dialog.setView(dialogView);
+        dialog.setCancelable(true);
+
+        final Button dialog_button = (Button) dialogView.findViewById(R.id.dialog_button);
+        final EditText dialog_input = (EditText) dialogView.findViewById(R.id.dialog_input);
+        final TextView dialog_title = (TextView) dialogView.findViewById(R.id.dialog_title);
+
+        dialog_button.setText(getString(R.string.otp_submit));
+        dialog_title.setText(getString(R.string.otp_verification));
+
+
+        final android.app.AlertDialog alertDialog = dialog.create();
+        alertDialog.show();
+
+        dialog_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                String code = dialog_input.getText().toString().trim();
+                if (code.length() < 4) {
+
+
+                    dialog_input.setError("Wrong Input");
+                    dialog_input.requestFocus();
+
+
+                } else {
+
+                    alertDialog.dismiss();
+                    verifyOTP(code);
+
+
+                }
+
+
+            }
+        });
+
+
+    }
+
+
+    //verify otp
+    public void verifyOTP(String code) {
+        String getSavedOtp = sp.getString("otp_code", "");
+
+        if (code.equals(getSavedOtp)) {
+
+
+            signup();
+
+        } else {
+
+            Toasty.error(this, "Wrong OTP Code!", Toast.LENGTH_SHORT).show();
+        }
+
+
+    }
 
 }
-
-
-
-

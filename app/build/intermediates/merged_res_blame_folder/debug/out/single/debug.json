@@ -84,12 +84,12 @@
         "source": "H:\\ClientProject\\Esha_resourse\\App_Code\\Agro_Retailer\\app\\src\\main\\res\\drawable-v24\\ic_profile.png"
     },
     {
-        "merged": "H:\\ClientProject\\Esha_resourse\\App_Code\\Agro_Retailer\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sign_up.xml.flat",
-        "source": "H:\\ClientProject\\Esha_resourse\\App_Code\\Agro_Retailer\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
-    },
-    {
         "merged": "H:\\ClientProject\\Esha_resourse\\App_Code\\Agro_Retailer\\app\\build\\intermediates\\res\\merged\\debug\\layout_retailer_list_item.xml.flat",
         "source": "H:\\ClientProject\\Esha_resourse\\App_Code\\Agro_Retailer\\app\\src\\main\\res\\layout\\retailer_list_item.xml"
+    },
+    {
+        "merged": "H:\\ClientProject\\Esha_resourse\\App_Code\\Agro_Retailer\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sign_up.xml.flat",
+        "source": "H:\\ClientProject\\Esha_resourse\\App_Code\\Agro_Retailer\\app\\src\\main\\res\\layout\\activity_sign_up.xml"
     },
     {
         "merged": "H:\\ClientProject\\Esha_resourse\\App_Code\\Agro_Retailer\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_order_details.xml.flat",
@@ -204,6 +204,10 @@
         "source": "H:\\ClientProject\\Esha_resourse\\App_Code\\Agro_Retailer\\app\\src\\main\\res\\font\\solaiman_lipi.ttf"
     },
     {
+        "merged": "H:\\ClientProject\\Esha_resourse\\App_Code\\Agro_Retailer\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_otp_input.xml.flat",
+        "source": "H:\\ClientProject\\Esha_resourse\\App_Code\\Agro_Retailer\\app\\src\\main\\res\\layout\\dialog_otp_input.xml"
+    },
+    {
         "merged": "H:\\ClientProject\\Esha_resourse\\App_Code\\Agro_Retailer\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "H:\\ClientProject\\Esha_resourse\\App_Code\\Agro_Retailer\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
     },
@@ -270,6 +274,10 @@
     {
         "merged": "H:\\ClientProject\\Esha_resourse\\App_Code\\Agro_Retailer\\app\\build\\intermediates\\res\\merged\\debug\\drawable_nodatafound.jpg.flat",
         "source": "H:\\ClientProject\\Esha_resourse\\App_Code\\Agro_Retailer\\app\\src\\main\\res\\drawable\\nodatafound.jpg"
+    },
+    {
+        "merged": "H:\\ClientProject\\Esha_resourse\\App_Code\\Agro_Retailer\\app\\build\\intermediates\\res\\merged\\debug\\xml_provider_paths.xml.flat",
+        "source": "H:\\ClientProject\\Esha_resourse\\App_Code\\Agro_Retailer\\app\\src\\main\\res\\xml\\provider_paths.xml"
     },
     {
         "merged": "H:\\ClientProject\\Esha_resourse\\App_Code\\Agro_Retailer\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",

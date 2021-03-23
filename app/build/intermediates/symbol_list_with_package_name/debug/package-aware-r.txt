@@ -666,8 +666,13 @@ color colorPrimary
 color colorPrimaryDark
 color defaultTextColor
 color design_bottom_navigation_shadow_color
+color design_default_color_on_surface
 color design_default_color_primary
 color design_default_color_primary_dark
+color design_default_color_primary_variant
+color design_default_color_secondary
+color design_default_color_secondary_variant
+color design_default_color_surface
 color design_error
 color design_fab_shadow_end_color
 color design_fab_shadow_mid_color
@@ -1305,6 +1310,8 @@ id design_menu_item_action_area_stub
 id design_menu_item_text
 id design_navigation_view
 id dialog_button
+id dialog_input
+id dialog_title
 id dimensions
 id direct
 id disableHome
@@ -1686,6 +1693,7 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
+layout dialog_otp_input
 layout evp_include_controls
 layout evp_include_progress
 layout mtrl_layout_snackbar
@@ -1761,6 +1769,7 @@ string character_counter_content_description
 string character_counter_pattern
 string choose_image
 string confirm_order
+string copy_right
 string crops
 string description
 string edit
@@ -1784,6 +1793,10 @@ string order_id
 string order_information
 string order_status
 string orders
+string otp_code
+string otp_submit
+string otp_text
+string otp_verification
 string password
 string password_toggle_content_description
 string path_password_eye

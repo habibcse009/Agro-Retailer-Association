@@ -8,6 +8,8 @@ com/project/agro_retailerapp/LoginActivity.java
  com.project.agro_retailerapp.LoginActivity$4
  com.project.agro_retailerapp.LoginActivity$5
  com.project.agro_retailerapp.LoginActivity$6
+ com.project.agro_retailerapp.LoginActivity$7
+ com.project.agro_retailerapp.LoginActivity$MyAsyncTasks
 com/project/agro_retailerapp/utils/LocaleManager.java
  com.project.agro_retailerapp.utils.LocaleManager
  com.project.agro_retailerapp.utils.LocaleManager$LocaleDef
@@ -17,8 +19,15 @@ com/project/agro_retailerapp/Admin/AdminMainActivity.java
  com.project.agro_retailerapp.Admin.AdminMainActivity$2
  com.project.agro_retailerapp.Admin.AdminMainActivity$3
  com.project.agro_retailerapp.Admin.AdminMainActivity$4
-com/project/agro_retailerapp/Constant.java
- com.project.agro_retailerapp.Constant
+com/project/agro_retailerapp/AgroTeam/AgroMainActivity.java
+ com.project.agro_retailerapp.AgroTeam.AgroMainActivity
+ com.project.agro_retailerapp.AgroTeam.AgroMainActivity$1
+ com.project.agro_retailerapp.AgroTeam.AgroMainActivity$2
+ com.project.agro_retailerapp.AgroTeam.AgroMainActivity$3
+ com.project.agro_retailerapp.AgroTeam.AgroMainActivity$4
+ com.project.agro_retailerapp.AgroTeam.AgroMainActivity$5
+ com.project.agro_retailerapp.AgroTeam.AgroMainActivity$6
+ com.project.agro_retailerapp.AgroTeam.AgroMainActivity$7
 com/project/agro_retailerapp/Admin/Profile/EditProfileAdminActivity.java
  com.project.agro_retailerapp.Admin.Profile.EditProfileAdminActivity
  com.project.agro_retailerapp.Admin.Profile.EditProfileAdminActivity$1
@@ -46,8 +55,12 @@ com/project/agro_retailerapp/AgroTeam/Products/model/ProductUpload.java
  com.project.agro_retailerapp.AgroTeam.Products.model.ProductUpload
 com/project/agro_retailerapp/BuildConfig.java
  com.project.agro_retailerapp.BuildConfig
-com/project/agro_retailerapp/AgroTeam/Crops/AluSonrokkhonActivity.java
- com.project.agro_retailerapp.AgroTeam.Crops.AluSonrokkhonActivity
+com/project/agro_retailerapp/AgroTeam/Orders/AgroOrderActivity.java
+ com.project.agro_retailerapp.AgroTeam.Orders.AgroOrderActivity
+ com.project.agro_retailerapp.AgroTeam.Orders.AgroOrderActivity$1
+ com.project.agro_retailerapp.AgroTeam.Orders.AgroOrderActivity$2
+ com.project.agro_retailerapp.AgroTeam.Orders.AgroOrderActivity$3
+ com.project.agro_retailerapp.AgroTeam.Orders.AgroOrderActivity$4
 com/project/agro_retailerapp/AgroTeam/Crops/BijerJotnoActivity.java
  com.project.agro_retailerapp.AgroTeam.Crops.BijerJotnoActivity
 com/project/agro_retailerapp/AgroTeam/Products/adapter/ProductAdapter.java
@@ -68,6 +81,8 @@ com/project/agro_retailerapp/SignUpActivity.java
  com.project.agro_retailerapp.SignUpActivity$5
  com.project.agro_retailerapp.SignUpActivity$6
  com.project.agro_retailerapp.SignUpActivity$7
+ com.project.agro_retailerapp.SignUpActivity$8
+ com.project.agro_retailerapp.SignUpActivity$MyAsyncTasks
 com/project/agro_retailerapp/AgroTeam/ViewNoticeActivity.java
  com.project.agro_retailerapp.AgroTeam.ViewNoticeActivity
 com/project/agro_retailerapp/Retailers/Profile/EditProfileRetailerActivity.java
@@ -115,15 +130,10 @@ com/project/agro_retailerapp/AgroTeam/Products/AddProductActivity.java
  com.project.agro_retailerapp.AgroTeam.Products.AddProductActivity$3$1
  com.project.agro_retailerapp.AgroTeam.Products.AddProductActivity$3$2
  com.project.agro_retailerapp.AgroTeam.Products.AddProductActivity$4
-com/project/agro_retailerapp/AgroTeam/AgroMainActivity.java
- com.project.agro_retailerapp.AgroTeam.AgroMainActivity
- com.project.agro_retailerapp.AgroTeam.AgroMainActivity$1
- com.project.agro_retailerapp.AgroTeam.AgroMainActivity$2
- com.project.agro_retailerapp.AgroTeam.AgroMainActivity$3
- com.project.agro_retailerapp.AgroTeam.AgroMainActivity$4
- com.project.agro_retailerapp.AgroTeam.AgroMainActivity$5
- com.project.agro_retailerapp.AgroTeam.AgroMainActivity$6
- com.project.agro_retailerapp.AgroTeam.AgroMainActivity$7
+com/project/agro_retailerapp/AgroTeam/Products/ProductDescriptionActivity.java
+ com.project.agro_retailerapp.AgroTeam.Products.ProductDescriptionActivity
+ com.project.agro_retailerapp.AgroTeam.Products.ProductDescriptionActivity$1
+ com.project.agro_retailerapp.AgroTeam.Products.ProductDescriptionActivity$2
 com/project/agro_retailerapp/utils/BaseActivity.java
  com.project.agro_retailerapp.utils.BaseActivity
 com/project/agro_retailerapp/remote/ApiInterface.java
@@ -156,12 +166,14 @@ com/project/agro_retailerapp/Admin/Profile/ProfileAdminActivity.java
  com.project.agro_retailerapp.Admin.Profile.ProfileAdminActivity$1
  com.project.agro_retailerapp.Admin.Profile.ProfileAdminActivity$2
  com.project.agro_retailerapp.Admin.Profile.ProfileAdminActivity$3
-com/project/agro_retailerapp/AgroTeam/Orders/AgroOrderActivity.java
- com.project.agro_retailerapp.AgroTeam.Orders.AgroOrderActivity
- com.project.agro_retailerapp.AgroTeam.Orders.AgroOrderActivity$1
- com.project.agro_retailerapp.AgroTeam.Orders.AgroOrderActivity$2
- com.project.agro_retailerapp.AgroTeam.Orders.AgroOrderActivity$3
- com.project.agro_retailerapp.AgroTeam.Orders.AgroOrderActivity$4
+com/project/agro_retailerapp/AgroTeam/Orders/OrderActivity.java
+ com.project.agro_retailerapp.AgroTeam.Orders.OrderActivity
+ com.project.agro_retailerapp.AgroTeam.Orders.OrderActivity$1
+ com.project.agro_retailerapp.AgroTeam.Orders.OrderActivity$2
+ com.project.agro_retailerapp.AgroTeam.Orders.OrderActivity$3
+ com.project.agro_retailerapp.AgroTeam.Orders.OrderActivity$4
+ com.project.agro_retailerapp.AgroTeam.Orders.OrderActivity$5
+ com.project.agro_retailerapp.AgroTeam.Orders.OrderActivity$6
 com/project/agro_retailerapp/SplashActivity.java
  com.project.agro_retailerapp.SplashActivity
  com.project.agro_retailerapp.SplashActivity$1
@@ -174,17 +186,6 @@ com/project/agro_retailerapp/AgroTeam/Profile/ProfileAgroActivity.java
  com.project.agro_retailerapp.AgroTeam.Profile.ProfileAgroActivity$1
  com.project.agro_retailerapp.AgroTeam.Profile.ProfileAgroActivity$2
  com.project.agro_retailerapp.AgroTeam.Profile.ProfileAgroActivity$3
-com/project/agro_retailerapp/Retailers/Profile/ProfileRetailerActivity.java
- com.project.agro_retailerapp.Retailers.Profile.ProfileRetailerActivity
- com.project.agro_retailerapp.Retailers.Profile.ProfileRetailerActivity$1
- com.project.agro_retailerapp.Retailers.Profile.ProfileRetailerActivity$2
- com.project.agro_retailerapp.Retailers.Profile.ProfileRetailerActivity$3
-com/project/agro_retailerapp/Retailers/RetailerMainActivity.java
- com.project.agro_retailerapp.Retailers.RetailerMainActivity
- com.project.agro_retailerapp.Retailers.RetailerMainActivity$1
- com.project.agro_retailerapp.Retailers.RetailerMainActivity$2
- com.project.agro_retailerapp.Retailers.RetailerMainActivity$3
- com.project.agro_retailerapp.Retailers.RetailerMainActivity$4
 com/project/agro_retailerapp/AgroTeam/Orders/OrderDetailsActivity.java
  com.project.agro_retailerapp.AgroTeam.Orders.OrderDetailsActivity
  com.project.agro_retailerapp.AgroTeam.Orders.OrderDetailsActivity$1
@@ -197,15 +198,18 @@ com/project/agro_retailerapp/AgroTeam/Orders/OrderDetailsActivity.java
  com.project.agro_retailerapp.AgroTeam.Orders.OrderDetailsActivity$4
  com.project.agro_retailerapp.AgroTeam.Orders.OrderDetailsActivity$5
  com.project.agro_retailerapp.AgroTeam.Orders.OrderDetailsActivity$6
-com/project/agro_retailerapp/AgroTeam/Orders/OrderActivity.java
- com.project.agro_retailerapp.AgroTeam.Orders.OrderActivity
- com.project.agro_retailerapp.AgroTeam.Orders.OrderActivity$1
- com.project.agro_retailerapp.AgroTeam.Orders.OrderActivity$2
- com.project.agro_retailerapp.AgroTeam.Orders.OrderActivity$3
- com.project.agro_retailerapp.AgroTeam.Orders.OrderActivity$4
- com.project.agro_retailerapp.AgroTeam.Orders.OrderActivity$5
- com.project.agro_retailerapp.AgroTeam.Orders.OrderActivity$6
-com/project/agro_retailerapp/AgroTeam/Products/ProductDescriptionActivity.java
- com.project.agro_retailerapp.AgroTeam.Products.ProductDescriptionActivity
- com.project.agro_retailerapp.AgroTeam.Products.ProductDescriptionActivity$1
- com.project.agro_retailerapp.AgroTeam.Products.ProductDescriptionActivity$2
+com/project/agro_retailerapp/Retailers/RetailerMainActivity.java
+ com.project.agro_retailerapp.Retailers.RetailerMainActivity
+ com.project.agro_retailerapp.Retailers.RetailerMainActivity$1
+ com.project.agro_retailerapp.Retailers.RetailerMainActivity$2
+ com.project.agro_retailerapp.Retailers.RetailerMainActivity$3
+ com.project.agro_retailerapp.Retailers.RetailerMainActivity$4
+com/project/agro_retailerapp/AgroTeam/Crops/AluSonrokkhonActivity.java
+ com.project.agro_retailerapp.AgroTeam.Crops.AluSonrokkhonActivity
+com/project/agro_retailerapp/Constant.java
+ com.project.agro_retailerapp.Constant
+com/project/agro_retailerapp/Retailers/Profile/ProfileRetailerActivity.java
+ com.project.agro_retailerapp.Retailers.Profile.ProfileRetailerActivity
+ com.project.agro_retailerapp.Retailers.Profile.ProfileRetailerActivity$1
+ com.project.agro_retailerapp.Retailers.Profile.ProfileRetailerActivity$2
+ com.project.agro_retailerapp.Retailers.Profile.ProfileRetailerActivity$3

@@ -13,155 +13,178 @@
 11    <uses-permission android:name="android.permission.INTERNET" />
 11-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:6:5-67
 11-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:6:22-64
-12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-12-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:7:5-81
-12-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:7:22-78
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:7:5-79
+12-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:7:22-76
 13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-13-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:12:5-80
-13-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:12:22-77
-14
-15    <application
-15-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:9:5-54:19
-16        android:allowBackup="true"
-16-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:10:9-35
-17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-17-->[androidx.core:core:1.1.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\73530a2d0c1df4b3085807c82555ce12\core-1.1.0\AndroidManifest.xml:24:18-86
-18        android:debuggable="true"
-19        android:extractNativeLibs="false"
-20        android:icon="@drawable/ic_cooperation"
-20-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:11:9-48
-21        android:label="@string/app_name"
-21-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:12:9-41
-22        android:roundIcon="@drawable/ic_cooperation"
-22-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:13:9-53
-23        android:supportsRtl="true"
-23-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:14:9-35
-24        android:testOnly="true"
-25        android:theme="@style/Theme.Agro_RetailerApp"
-25-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:15:9-54
-26        android:usesCleartextTraffic="true" >
-26-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:16:9-44
-27        <activity android:name="com.project.agro_retailerapp.Retailers.OrderListRetailerActivity" />
-27-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:18:9-82
-27-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:18:19-70
-28        <activity android:name="com.project.agro_retailerapp.Admin.UserList.RetailerListActivity" />
-28-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:19:9-73
-28-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:19:19-70
-29        <activity android:name="com.project.agro_retailerapp.Admin.UserList.AgroListActivity" />
-29-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:20:9-69
-29-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:20:19-66
-30        <activity android:name="com.project.agro_retailerapp.Admin.Profile.EditProfileAdminActivity" />
-30-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:21:9-76
-30-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:21:19-73
-31        <activity android:name="com.project.agro_retailerapp.Admin.Profile.ProfileAdminActivity" />
-31-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:22:9-72
-31-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:22:19-69
-32        <activity android:name="com.project.agro_retailerapp.Retailers.Profile.EditProfileRetailerActivity" />
-32-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:23:9-83
-32-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:23:19-80
-33        <activity android:name="com.project.agro_retailerapp.Retailers.Profile.ProfileRetailerActivity" />
-33-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:24:9-79
-33-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:24:19-76
-34        <activity android:name="com.project.agro_retailerapp.AgroTeam.Products.ProductDescriptionActivity" />
-34-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:25:9-82
-34-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:25:19-79
-35        <activity android:name="com.project.agro_retailerapp.AgroTeam.Orders.OrderActivity" />
-35-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:26:9-67
-35-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:26:19-64
-36        <activity android:name="com.project.agro_retailerapp.AgroTeam.Products.AllProductsActivity" />
-36-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:27:9-75
-36-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:27:19-72
-37        <activity android:name="com.project.agro_retailerapp.AgroTeam.Products.AddProductActivity" />
-37-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:28:9-74
-37-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:28:19-71
-38        <activity android:name="com.project.agro_retailerapp.AgroTeam.Orders.OrderDetailsActivity" />
-38-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:29:9-74
-38-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:29:19-71
-39        <activity android:name="com.project.agro_retailerapp.AgroTeam.Orders.AgroOrderActivity" />
-39-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:30:9-71
-39-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:30:19-68
-40        <activity android:name="com.project.agro_retailerapp.AgroTeam.Crops.AluSonrokkhonActivity" />
-40-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:31:9-74
-40-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:31:19-71
-41        <activity android:name="com.project.agro_retailerapp.AgroTeam.Crops.MatirUrborotaActivity" />
-41-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:32:9-74
-41-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:32:19-71
-42        <activity android:name="com.project.agro_retailerapp.AgroTeam.Crops.BijerJotnoActivity" />
-42-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:33:9-71
-42-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:33:19-68
-43        <activity android:name="com.project.agro_retailerapp.AgroTeam.Crops.CropsActivity" />
-43-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:34:9-66
-43-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:34:19-63
-44        <activity android:name="com.project.agro_retailerapp.AgroTeam.ViewNoticeActivity" />
-44-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:35:9-65
-44-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:35:19-62
-45        <activity android:name="com.project.agro_retailerapp.AgroTeam.Profile.EditProfileAgroActivity" />
-45-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:36:9-78
-45-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:36:19-75
-46        <activity android:name="com.project.agro_retailerapp.AgroTeam.Profile.ProfileAgroActivity" />
-46-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:37:9-74
-46-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:37:19-71
-47        <activity android:name="com.project.agro_retailerapp.SignUpActivity" />
-47-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:38:9-52
-47-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:38:19-49
-48        <activity android:name="com.project.agro_retailerapp.LoginActivity" />
-48-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:39:9-51
-48-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:39:19-48
-49        <activity android:name="com.project.agro_retailerapp.Retailers.RetailerMainActivity" />
-49-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:40:9-68
-49-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:40:19-65
-50        <activity android:name="com.project.agro_retailerapp.AgroTeam.AgroMainActivity" />
-50-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:41:9-63
-50-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:41:19-60
-51        <activity android:name="com.project.agro_retailerapp.Admin.AdminMainActivity" />
-51-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:42:9-61
-51-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:42:19-58
-52        <activity android:name="com.project.agro_retailerapp.SplashActivity" >
-52-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:43:9-49:20
-52-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:43:19-49
-53            <intent-filter>
-53-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:44:13-48:29
-54                <action android:name="android.intent.action.MAIN" />
-54-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:45:17-69
-54-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:45:25-66
-55
-56                <category android:name="android.intent.category.LAUNCHER" />
-56-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:47:17-77
-56-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:47:27-74
-57            </intent-filter>
-58        </activity>
-59
-60        <uses-library
-60-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:51:9-53:40
-61            android:name="org.apache.http.legacy"
-61-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:52:13-50
-62            android:required="false" />
-62-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:53:13-37
+13-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:8:5-80
+13-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:8:22-77
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:9:5-79
+14-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:9:22-76
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:10:5-81
+15-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:10:22-78
+16    <uses-permission android:name="android.permission.CALL_PHONE" />
+16-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:11:5-69
+16-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:11:22-66
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:12:5-81
+17-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:12:22-78
+18    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+18-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:13:5-75
+18-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:13:22-72
+19    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+19-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:14:5-77
+19-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:14:22-74
+20    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+20-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:15:5-70
+20-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:15:22-67
+21    <uses-permission android:name="android.permission.WRITE_SMS" />
+21-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:16:5-68
+21-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:16:22-65
+22
+23    <application
+23-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:18:5-72:19
+24        android:allowBackup="true"
+24-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:19:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.1.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\73530a2d0c1df4b3085807c82555ce12\core-1.1.0\AndroidManifest.xml:24:18-86
+26        android:debuggable="true"
+27        android:extractNativeLibs="false"
+28        android:icon="@drawable/ic_cooperation"
+28-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:20:9-48
+29        android:label="@string/app_name"
+29-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:21:9-41
+30        android:roundIcon="@drawable/ic_cooperation"
+30-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:22:9-53
+31        android:supportsRtl="true"
+31-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:23:9-35
+32        android:testOnly="true"
+33        android:theme="@style/Theme.Agro_RetailerApp"
+33-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:24:9-54
+34        android:usesCleartextTraffic="true" >
+34-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:25:9-44
+35        <activity android:name="com.project.agro_retailerapp.Retailers.OrderListRetailerActivity" />
+35-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:27:9-82
+35-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:27:19-70
+36        <activity android:name="com.project.agro_retailerapp.Admin.UserList.RetailerListActivity" />
+36-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:28:9-73
+36-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:28:19-70
+37        <activity android:name="com.project.agro_retailerapp.Admin.UserList.AgroListActivity" />
+37-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:29:9-69
+37-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:29:19-66
+38        <activity android:name="com.project.agro_retailerapp.Admin.Profile.EditProfileAdminActivity" />
+38-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:30:9-76
+38-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:30:19-73
+39        <activity android:name="com.project.agro_retailerapp.Admin.Profile.ProfileAdminActivity" />
+39-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:31:9-72
+39-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:31:19-69
+40        <activity android:name="com.project.agro_retailerapp.Retailers.Profile.EditProfileRetailerActivity" />
+40-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:32:9-83
+40-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:32:19-80
+41        <activity android:name="com.project.agro_retailerapp.Retailers.Profile.ProfileRetailerActivity" />
+41-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:33:9-79
+41-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:33:19-76
+42        <activity android:name="com.project.agro_retailerapp.AgroTeam.Products.ProductDescriptionActivity" />
+42-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:34:9-82
+42-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:34:19-79
+43        <activity android:name="com.project.agro_retailerapp.AgroTeam.Orders.OrderActivity" />
+43-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:35:9-67
+43-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:35:19-64
+44        <activity android:name="com.project.agro_retailerapp.AgroTeam.Products.AllProductsActivity" />
+44-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:36:9-75
+44-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:36:19-72
+45        <activity android:name="com.project.agro_retailerapp.AgroTeam.Products.AddProductActivity" />
+45-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:37:9-74
+45-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:37:19-71
+46        <activity android:name="com.project.agro_retailerapp.AgroTeam.Orders.OrderDetailsActivity" />
+46-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:38:9-74
+46-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:38:19-71
+47        <activity android:name="com.project.agro_retailerapp.AgroTeam.Orders.AgroOrderActivity" />
+47-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:39:9-71
+47-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:39:19-68
+48        <activity android:name="com.project.agro_retailerapp.AgroTeam.Crops.AluSonrokkhonActivity" />
+48-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:40:9-74
+48-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:40:19-71
+49        <activity android:name="com.project.agro_retailerapp.AgroTeam.Crops.MatirUrborotaActivity" />
+49-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:41:9-74
+49-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:41:19-71
+50        <activity android:name="com.project.agro_retailerapp.AgroTeam.Crops.BijerJotnoActivity" />
+50-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:42:9-71
+50-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:42:19-68
+51        <activity android:name="com.project.agro_retailerapp.AgroTeam.Crops.CropsActivity" />
+51-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:43:9-66
+51-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:43:19-63
+52        <activity android:name="com.project.agro_retailerapp.AgroTeam.ViewNoticeActivity" />
+52-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:44:9-65
+52-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:44:19-62
+53        <activity android:name="com.project.agro_retailerapp.AgroTeam.Profile.EditProfileAgroActivity" />
+53-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:45:9-78
+53-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:45:19-75
+54        <activity android:name="com.project.agro_retailerapp.AgroTeam.Profile.ProfileAgroActivity" />
+54-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:46:9-74
+54-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:46:19-71
+55        <activity android:name="com.project.agro_retailerapp.SignUpActivity" />
+55-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:47:9-52
+55-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:47:19-49
+56        <activity android:name="com.project.agro_retailerapp.LoginActivity" />
+56-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:48:9-51
+56-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:48:19-48
+57        <activity android:name="com.project.agro_retailerapp.Retailers.RetailerMainActivity" />
+57-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:49:9-68
+57-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:49:19-65
+58        <activity android:name="com.project.agro_retailerapp.AgroTeam.AgroMainActivity" />
+58-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:50:9-63
+58-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:50:19-60
+59        <activity android:name="com.project.agro_retailerapp.Admin.AdminMainActivity" />
+59-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:51:9-61
+59-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:51:19-58
+60        <activity android:name="com.project.agro_retailerapp.SplashActivity" >
+60-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:52:9-58:20
+60-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:52:19-49
+61            <intent-filter>
+61-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:53:13-57:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:54:17-69
+62-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:54:25-66
 63
-64        <activity
-64-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:15:9-17:67
-65            android:name="in.mayanknagwanshi.imagepicker.ImageSelectActivity"
-65-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:16:13-78
-66            android:theme="@style/Theme.AppCompat.Light.Dialog" />
-66-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:17:13-64
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:56:17-77
+64-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:56:27-74
+65            </intent-filter>
+66        </activity>
 67
 68        <provider
-68-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:19:9-27:20
 69            android:name="androidx.core.content.FileProvider"
-69-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:20:13-62
+69-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:60:13-62
 70            android:authorities="com.project.agro_retailerapp.provider"
-70-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:21:13-60
+70-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:61:13-60
 71            android:exported="false"
-71-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:22:13-37
+71-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:62:13-37
 72            android:grantUriPermissions="true" >
-72-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:23:13-47
+72-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:63:13-47
 73            <meta-data
-73-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:24:13-26:58
+73-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:64:13-66:58
 74                android:name="android.support.FILE_PROVIDER_PATHS"
-74-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:25:17-67
+74-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:65:17-67
 75                android:resource="@xml/provider_paths" />
-75-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:26:17-55
+75-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:66:17-55
 76        </provider>
-77    </application>
-78
-79</manifest>
+77
+78        <uses-library
+78-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:69:9-71:40
+79            android:name="org.apache.http.legacy"
+79-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:70:13-50
+80            android:required="false" />
+80-->H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:71:13-37
+81
+82        <activity
+82-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:15:9-17:67
+83            android:name="in.mayanknagwanshi.imagepicker.ImageSelectActivity"
+83-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:16:13-78
+84            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+84-->[com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:17:13-64
+85    </application>
+86
+87</manifest>

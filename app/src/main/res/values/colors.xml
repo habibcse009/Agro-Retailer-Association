@@ -10,6 +10,21 @@
     <color name="colorPrimary">#502A5E</color>
     <color name="colorPrimaryDark">#502a5e</color>
     <color name="colorAccent">#FF4081</color>
-
+    <color name="design_default_color_on_surface">#000000</color>
+    <color name="design_default_color_primary">#6200EE</color>
+    <color name="design_default_color_primary_dark">#3700B3</color>
+    <color name="design_default_color_primary_variant">#3700B3</color>
+    <color name="design_default_color_secondary">#03DAC6</color>
+    <color name="design_default_color_secondary_variant">#018786</color>
+    <color name="design_default_color_surface">#FFFFFF</color>
+    <color name="design_fab_shadow_end_color">@android:color/transparent</color>
+    <color name="design_fab_shadow_mid_color">#14000000</color>
+    <color name="design_fab_shadow_start_color">#44000000</color>
+    <color name="design_fab_stroke_end_inner_color">#0A000000</color>
+    <color name="design_fab_stroke_end_outer_color">#0F000000</color>
+    <color name="design_fab_stroke_top_inner_color">#1AFFFFFF</color>
+    <color name="design_fab_stroke_top_outer_color">#2EFFFFFF</color>
+    <color name="design_snackbar_background_color">#323232</color>
+    <color name="mtrl_btn_text_color_disabled">#61000000</color>
     <color name="grey_5">#f2f2f2</color>
 </resources>

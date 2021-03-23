@@ -1,14 +1,27 @@
 -- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:59:9-67:20
+MERGED from [com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:19:9-27:20
+MERGED from [com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:19:9-27:20
+	android:grantUriPermissions
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:63:13-47
+	android:authorities
+		INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:61:13-60
+	android:exported
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:62:13-37
+	android:name
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:60:13-62
 manifest
-ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:2:1-56:12
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:2:1-74:12
 MERGED from [com.github.GrenderG:Toasty:1.4.2] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\64b4336c28730e52433a1922d8cf59c5\jetified-Toasty-1.4.2\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\750e11957bf7041179375a87d64fa3cb\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:2:1-30:12
-MERGED from [com.afollestad:easyvideoplayer:0.3.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\3095e012f6f034f42b368e04a853ca40\jetified-easyvideoplayer-0.3.0\AndroidManifest.xml:2:1-14:12
-MERGED from [me.zhanghai.android.materialprogressbar:library:1.1.7] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\1523b3aadae1797b5a81bed42c3d33a9\jetified-library-1.1.7\AndroidManifest.xml:6:1-16:12
+MERGED from [com.afollestad:easyvideoplayer:0.3.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\e20a8a21372c25430ae9190081e357e5\jetified-easyvideoplayer-0.3.0\AndroidManifest.xml:2:1-14:12
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.1.7] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\79151269263f32d5c177770d688cebe4\jetified-library-1.1.7\AndroidManifest.xml:6:1-16:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\780dca39713ff2fcf4eadcaf494ac982\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\213ad6fce5ea38e5799c707ff664b050\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [com.github.ybq:Android-SpinKit:1.4.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\93be385ce0423bf14bb96f64a565c746\jetified-Android-SpinKit-1.4.0\AndroidManifest.xml:2:1-9:12
@@ -48,22 +61,22 @@ MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\habib\.gradle\caches
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\aaff256ac919a45448a380ca9a0003ca\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\06bc4641de51b04d4df94808d6e05292\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\1b64911e987df0fea019408e241659d7\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:2:1-56:12
-INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:2:1-56:12
+INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:2:1-74:12
+INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:2:1-74:12
 	package
 		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:4:5-43
 		INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml
 		INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:2:1-56:12
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:2:1-74:12
 		INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:2:1-56:12
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:2:1-74:12
 		INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:2:11-69
@@ -71,20 +84,58 @@ uses-permission#android.permission.INTERNET
 ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:6:5-67
 	android:name
 		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:8:5-80
+MERGED from [com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:12:5-80
+MERGED from [com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:8:22-77
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:9:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.CALL_PHONE
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:11:5-69
+	android:name
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:11:22-66
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:7:5-81
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:12:5-81
 MERGED from [com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:11:5-81
 MERGED from [com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:11:5-81
 	android:name
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:7:22-78
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:12:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:13:5-75
+	android:name
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:13:22-72
+uses-permission#android.permission.READ_PHONE_NUMBERS
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:14:5-77
+	android:name
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:14:22-74
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:15:5-70
+	android:name
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:15:22-67
+uses-permission#android.permission.WRITE_SMS
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:16:5-68
+	android:name
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:16:22-65
 application
-ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:9:5-54:19
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:18:5-72:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\750e11957bf7041179375a87d64fa3cb\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\750e11957bf7041179375a87d64fa3cb\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:14:5-28:19
 MERGED from [com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:14:5-28:19
-MERGED from [com.afollestad:easyvideoplayer:0.3.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\3095e012f6f034f42b368e04a853ca40\jetified-easyvideoplayer-0.3.0\AndroidManifest.xml:12:5-20
-MERGED from [com.afollestad:easyvideoplayer:0.3.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\3095e012f6f034f42b368e04a853ca40\jetified-easyvideoplayer-0.3.0\AndroidManifest.xml:12:5-20
+MERGED from [com.afollestad:easyvideoplayer:0.3.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\e20a8a21372c25430ae9190081e357e5\jetified-easyvideoplayer-0.3.0\AndroidManifest.xml:12:5-20
+MERGED from [com.afollestad:easyvideoplayer:0.3.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\e20a8a21372c25430ae9190081e357e5\jetified-easyvideoplayer-0.3.0\AndroidManifest.xml:12:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\213ad6fce5ea38e5799c707ff664b050\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\213ad6fce5ea38e5799c707ff664b050\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [com.android.volley:volley:1.1.1] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\f1d57169f456ec18db6c386ecf8bd7c5\jetified-volley-1.1.1\AndroidManifest.xml:9:5-20
@@ -98,141 +149,141 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ha
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\73530a2d0c1df4b3085807c82555ce12\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:23:9-35
 	android:label
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:12:9-41
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:21:9-41
 	tools:ignore
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:17:9-48
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:26:9-48
 	android:roundIcon
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:13:9-53
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:22:9-53
 	android:icon
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:11:9-48
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:20:9-48
 	android:allowBackup
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:19:9-35
 	android:theme
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:15:9-54
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:24:9-54
 	android:usesCleartextTraffic
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:16:9-44
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:25:9-44
 activity#com.project.agro_retailerapp.Retailers.OrderListRetailerActivity
-ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:18:9-82
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:27:9-82
 	android:name
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:18:19-70
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:27:19-70
 activity#com.project.agro_retailerapp.Admin.UserList.RetailerListActivity
-ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:19:9-73
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:28:9-73
 	android:name
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:19:19-70
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:28:19-70
 activity#com.project.agro_retailerapp.Admin.UserList.AgroListActivity
-ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:20:9-69
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:29:9-69
 	android:name
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:20:19-66
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:29:19-66
 activity#com.project.agro_retailerapp.Admin.Profile.EditProfileAdminActivity
-ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:21:9-76
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:30:9-76
 	android:name
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:21:19-73
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:30:19-73
 activity#com.project.agro_retailerapp.Admin.Profile.ProfileAdminActivity
-ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:22:9-72
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:31:9-72
 	android:name
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:22:19-69
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:31:19-69
 activity#com.project.agro_retailerapp.Retailers.Profile.EditProfileRetailerActivity
-ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:23:9-83
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:32:9-83
 	android:name
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:23:19-80
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:32:19-80
 activity#com.project.agro_retailerapp.Retailers.Profile.ProfileRetailerActivity
-ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:24:9-79
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:33:9-79
 	android:name
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:24:19-76
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:33:19-76
 activity#com.project.agro_retailerapp.AgroTeam.Products.ProductDescriptionActivity
-ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:25:9-82
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:34:9-82
 	android:name
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:25:19-79
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:34:19-79
 activity#com.project.agro_retailerapp.AgroTeam.Orders.OrderActivity
-ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:26:9-67
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:35:9-67
 	android:name
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:26:19-64
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:35:19-64
 activity#com.project.agro_retailerapp.AgroTeam.Products.AllProductsActivity
-ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:27:9-75
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:36:9-75
 	android:name
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:27:19-72
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:36:19-72
 activity#com.project.agro_retailerapp.AgroTeam.Products.AddProductActivity
-ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:28:9-74
-	android:name
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:28:19-71
-activity#com.project.agro_retailerapp.AgroTeam.Orders.OrderDetailsActivity
-ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:29:9-74
-	android:name
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:29:19-71
-activity#com.project.agro_retailerapp.AgroTeam.Orders.AgroOrderActivity
-ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:30:9-71
-	android:name
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:30:19-68
-activity#com.project.agro_retailerapp.AgroTeam.Crops.AluSonrokkhonActivity
-ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:31:9-74
-	android:name
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:31:19-71
-activity#com.project.agro_retailerapp.AgroTeam.Crops.MatirUrborotaActivity
-ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:32:9-74
-	android:name
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:32:19-71
-activity#com.project.agro_retailerapp.AgroTeam.Crops.BijerJotnoActivity
-ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:33:9-71
-	android:name
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:33:19-68
-activity#com.project.agro_retailerapp.AgroTeam.Crops.CropsActivity
-ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:34:9-66
-	android:name
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:34:19-63
-activity#com.project.agro_retailerapp.AgroTeam.ViewNoticeActivity
-ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:35:9-65
-	android:name
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:35:19-62
-activity#com.project.agro_retailerapp.AgroTeam.Profile.EditProfileAgroActivity
-ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:36:9-78
-	android:name
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:36:19-75
-activity#com.project.agro_retailerapp.AgroTeam.Profile.ProfileAgroActivity
 ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:37:9-74
 	android:name
 		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:37:19-71
+activity#com.project.agro_retailerapp.AgroTeam.Orders.OrderDetailsActivity
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:38:9-74
+	android:name
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:38:19-71
+activity#com.project.agro_retailerapp.AgroTeam.Orders.AgroOrderActivity
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:39:9-71
+	android:name
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:39:19-68
+activity#com.project.agro_retailerapp.AgroTeam.Crops.AluSonrokkhonActivity
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:40:9-74
+	android:name
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:40:19-71
+activity#com.project.agro_retailerapp.AgroTeam.Crops.MatirUrborotaActivity
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:41:9-74
+	android:name
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:41:19-71
+activity#com.project.agro_retailerapp.AgroTeam.Crops.BijerJotnoActivity
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:42:9-71
+	android:name
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:42:19-68
+activity#com.project.agro_retailerapp.AgroTeam.Crops.CropsActivity
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:43:9-66
+	android:name
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:43:19-63
+activity#com.project.agro_retailerapp.AgroTeam.ViewNoticeActivity
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:44:9-65
+	android:name
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:44:19-62
+activity#com.project.agro_retailerapp.AgroTeam.Profile.EditProfileAgroActivity
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:45:9-78
+	android:name
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:45:19-75
+activity#com.project.agro_retailerapp.AgroTeam.Profile.ProfileAgroActivity
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:46:9-74
+	android:name
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:46:19-71
 activity#com.project.agro_retailerapp.SignUpActivity
-ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:38:9-52
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:47:9-52
 	android:name
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:38:19-49
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:47:19-49
 activity#com.project.agro_retailerapp.LoginActivity
-ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:39:9-51
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:48:9-51
 	android:name
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:39:19-48
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:48:19-48
 activity#com.project.agro_retailerapp.Retailers.RetailerMainActivity
-ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:40:9-68
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:49:9-68
 	android:name
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:40:19-65
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:49:19-65
 activity#com.project.agro_retailerapp.AgroTeam.AgroMainActivity
-ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:41:9-63
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:50:9-63
 	android:name
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:41:19-60
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:50:19-60
 activity#com.project.agro_retailerapp.Admin.AdminMainActivity
-ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:42:9-61
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:51:9-61
 	android:name
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:42:19-58
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:51:19-58
 activity#com.project.agro_retailerapp.SplashActivity
-ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:43:9-49:20
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:52:9-58:20
 	android:name
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:43:19-49
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:52:19-49
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:44:13-48:29
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:53:13-57:29
 action#android.intent.action.MAIN
-ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:45:17-69
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:54:17-69
 	android:name
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:45:25-66
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:54:25-66
 category#android.intent.category.LAUNCHER
-ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:47:17-77
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:56:17-77
 	android:name
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:47:27-74
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:56:27-74
 uses-library#org.apache.http.legacy
-ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:51:9-53:40
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:69:9-71:40
 	android:required
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:53:13-37
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:71:13-37
 	android:name
-		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:52:13-50
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:70:13-50
 uses-sdk
 INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml
@@ -243,10 +294,10 @@ MERGED from [com.google.android.material:material:1.0.0] C:\Users\habib\.gradle\
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\750e11957bf7041179375a87d64fa3cb\material-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:7:5-9:41
-MERGED from [com.afollestad:easyvideoplayer:0.3.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\3095e012f6f034f42b368e04a853ca40\jetified-easyvideoplayer-0.3.0\AndroidManifest.xml:8:5-10:41
-MERGED from [com.afollestad:easyvideoplayer:0.3.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\3095e012f6f034f42b368e04a853ca40\jetified-easyvideoplayer-0.3.0\AndroidManifest.xml:8:5-10:41
-MERGED from [me.zhanghai.android.materialprogressbar:library:1.1.7] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\1523b3aadae1797b5a81bed42c3d33a9\jetified-library-1.1.7\AndroidManifest.xml:12:5-14:41
-MERGED from [me.zhanghai.android.materialprogressbar:library:1.1.7] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\1523b3aadae1797b5a81bed42c3d33a9\jetified-library-1.1.7\AndroidManifest.xml:12:5-14:41
+MERGED from [com.afollestad:easyvideoplayer:0.3.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\e20a8a21372c25430ae9190081e357e5\jetified-easyvideoplayer-0.3.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.afollestad:easyvideoplayer:0.3.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\e20a8a21372c25430ae9190081e357e5\jetified-easyvideoplayer-0.3.0\AndroidManifest.xml:8:5-10:41
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.1.7] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\79151269263f32d5c177770d688cebe4\jetified-library-1.1.7\AndroidManifest.xml:12:5-14:41
+MERGED from [me.zhanghai.android.materialprogressbar:library:1.1.7] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\79151269263f32d5c177770d688cebe4\jetified-library-1.1.7\AndroidManifest.xml:12:5-14:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\780dca39713ff2fcf4eadcaf494ac982\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\780dca39713ff2fcf4eadcaf494ac982\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\213ad6fce5ea38e5799c707ff664b050\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
@@ -335,29 +386,17 @@ INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main
 		INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml
 		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml
 		INJECTED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml
-uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from [com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:12:5-80
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:64:13-66:58
+MERGED from [com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:24:13-26:58
+MERGED from [com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:24:13-26:58
+	android:resource
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:66:17-55
 	android:name
-		ADDED from [com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:12:22-77
+		ADDED from H:\ClientProject\Esha_resourse\App_Code\Agro_Retailer\app\src\main\AndroidManifest.xml:65:17-67
 activity#in.mayanknagwanshi.imagepicker.ImageSelectActivity
 ADDED from [com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:15:9-17:67
 	android:theme
 		ADDED from [com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:17:13-64
 	android:name
 		ADDED from [com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:16:13-78
-provider#androidx.core.content.FileProvider
-ADDED from [com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:19:9-27:20
-	android:grantUriPermissions
-		ADDED from [com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:23:13-47
-	android:authorities
-		ADDED from [com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:21:13-60
-	android:exported
-		ADDED from [com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:22:13-37
-	android:name
-		ADDED from [com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:20:13-62
-meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:24:13-26:58
-	android:resource
-		ADDED from [com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:26:17-55
-	android:name
-		ADDED from [com.github.maayyaannkk:ImagePicker:1.0.4] C:\Users\habib\.gradle\caches\transforms-2\files-2.1\ef2c74c0ceed5feeb5f77dfbfca7fed7\jetified-ImagePicker-1.0.4\AndroidManifest.xml:25:17-67

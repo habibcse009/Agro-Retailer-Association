@@ -1,6 +1,10 @@
 <resources>
     <string name="app_name" translatable="false">Agro-Retailer Association</string>
-
+    <string name="copy_right" translatable="false">Copyrights © %1$d Agro-Retailer Association</string>
+    <string name="otp_code"> Please enter OTP code here</string>
+    <string name="otp_text"> Please enter OTP verification code sent to your mobile via SMS</string>
+    <string name="otp_verification"> OTP VERIFICATION</string>
+    <string name="otp_submit">VERIFY &amp; CONTINUE</string>
     <string name="text_hindi" translatable="false">हिंदी</string>
     <string name="text_english" translatable="false">English</string>
     <string name="text_bangla" translatable="false">" বাংলা "</string>
